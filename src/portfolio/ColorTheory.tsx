@@ -39,11 +39,11 @@ const images = [
 
 export default function ColorTheory() {
   return (
-    <div className="flex flex-col bg-[#cc8983]">
+    <div className="flex flex-col bg-customPink">
       <div className="flex flex-row space-x-2">
         <h1
           id="color"
-          className="p-4 bebas-neue-regular z-10 title uppercase font-extrabold text-8xl flex float-left text-[#e20000]"
+          className="p-4 bebas-neue-regular z-10 title uppercase font-extrabold text-8xl flex float-left text-customRed"
         >
           Color Theory
         </h1>

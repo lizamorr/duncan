@@ -29,18 +29,18 @@ export default function About() {
         <div className="flex flex-col justify-center items-center">
           <img
             src={duncan}
-            className="rounded-full h-40 w-40 md:h-52 md:w-52 border border-[#eacfcc]"
+            className="rounded-full h-40 w-40 md:h-52 md:w-52 border border-customLightPink"
             alt="logo"
           />
-          <p className="header pt-2 md:pt-8 text-[#eacfcc] leading-[50px]">
+          <p className="header pt-2 md:pt-8 text-customLightPink leading-[50px]">
             Duncan Morrison
           </p>
-          <p className="bebas-neue-regular text-4xl md:text-5xl pt-6 text-[#e20000]">
+          <p className="bebas-neue-regular text-4xl md:text-5xl pt-6 text-customRed">
             Fashion Design
           </p>
         </div>
         <div className="flex flex-col flex-1 p-8">
-          <p className="pt-4 text-[#eacfcc] text-start">
+          <p className="pt-4 text-customLightPink text-start">
             Duncan is a <strong>Creative Fashion Designer</strong> that is
             business oriented with a gender-neutral streetwear approach.
             Aspiring fashion designer creates <strong>imaginative</strong>,{" "}
@@ -50,7 +50,7 @@ export default function About() {
             tasteful things he enjoys in life and that others may enjoy or find
             a liking to as well.
           </p>
-          <p className="italic text-[#eacfcc] pt-2 text-end">
+          <p className="italic text-customLightPink pt-2 text-end">
             He hopes each of his designs are full of life and that each clothing
             garment gives confidence to the individual wearing it while sparking
             conversation wherever they go.

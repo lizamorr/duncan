@@ -2,7 +2,7 @@ import React from 'react';
 
 import About from './components/About';
 import Menu from './components/Menu';
-import ColorTheory from './portfolio/color-theory/ColorTheory';
+import ColorTheory from './portfolio/ColorTheory';
 
 function App() {
   return (
