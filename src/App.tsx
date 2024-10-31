@@ -7,7 +7,7 @@ import ColorTheory from './portfolio/color-theory/ColorTheory';
 function App() {
   return (
     <>
-      <div className="flex flex-col md:flex-row">
+      <div className="flex flex-col md:flex-row text-center">
         <About />
         <Menu />
       </div>
