@@ -54,8 +54,15 @@ export default function ColorTheory() {
         className="px-4"
       >
         <Masonry gutter="10px" columnsCount={2}>
+          <p className="klara text-center justify-center text-2xl italic p-4">
+            A course that teaches students how{" "}
+            <strong>color affects the human mind, body, eye, and spirit</strong>
+            . Students use a variety of art mediums to create artwork that
+            demonstrates their understanding of color theory and how to apply it
+            in the visual arts.
+          </p>
           {images.map((img) => (
-            <img key={img.alt} src={img.src} alt={img.alt} />
+            <img key={img.alt} src={img.src} alt={img.alt} className="z-50" />
           ))}
         </Masonry>
       </ResponsiveMasonry>

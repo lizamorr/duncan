@@ -12,6 +12,7 @@ function App() {
         <Menu />
       </div>
       <ColorTheory />
+      <div className="paperOverlay"></div>
     </>
   );
 }
