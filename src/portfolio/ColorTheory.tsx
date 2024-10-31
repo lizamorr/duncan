@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 const images = [
   {
@@ -54,7 +54,7 @@ export default function ColorTheory() {
         className="p-4"
       >
         <Masonry gutter="10px" columnsCount={2}>
-          <p className="klara text-center justify-center text-2xl italic p-4">
+          <p className="klara text-center lg:text-start justify-center text-2xl italic p-4">
             A course that teaches students how{" "}
             <strong>color affects the human mind, body, eye, and spirit</strong>
             . Students use a variety of art mediums to create artwork that

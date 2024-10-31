@@ -18,34 +18,34 @@ export default function Menu() {
         onClick={() => handleScroll("design-concepts-1")}
         className="hover:underline"
       >
-        Design Concepts 1
+        Design Concepts I
       </p>
       <p
         onClick={() => handleScroll("design-concepts-2")}
         className="hover:underline"
       >
-        Design Concepts 2
-      </p>
-      <p
-        onClick={() => handleScroll("rendering-1")}
-        className="hover:underline"
-      >
-        Rendering 1
-      </p>
-      <p
-        onClick={() => handleScroll("2d-for-designers")}
-        className="hover:underline"
-      >
-        2D for Designers
+        Design Concepts II
       </p>
       <p onClick={() => handleScroll("drawing-1")} className="hover:underline">
-        Drawing 1
+        Drawing I
       </p>
       <p
         onClick={() => handleScroll("drawing-for-designers")}
         className="hover:underline"
       >
         Drawing for Designers
+      </p>
+      <p
+        onClick={() => handleScroll("rendering-1")}
+        className="hover:underline"
+      >
+        Rendering I
+      </p>
+      <p
+        onClick={() => handleScroll("2d-for-designers")}
+        className="hover:underline"
+      >
+        2D for Designers
       </p>
       <p
         onClick={() => handleScroll("history-of-design")}

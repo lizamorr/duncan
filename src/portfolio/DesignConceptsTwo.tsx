@@ -86,17 +86,17 @@ const images = [
   },
 ];
 
-export default function DesignConceptsOne() {
+export default function DesignConceptsTwo() {
   return (
     <>
       {/* <div className="wave-blue w-full h-12"></div> */}
-      <div className="flex flex-col bg-customBlue">
+      <div className="flex flex-col bg-black">
         <div className="flex flex-row space-x-2">
           <h1
-            id="design-concepts-1"
-            className="p-4 bebas-neue-regular z-10 title uppercase font-extrabold text-8xl flex float-left text-customRed"
+            id="design-concepts-2"
+            className="p-4 bebas-neue-regular z-10 title uppercase font-extrabold text-8xl flex float-left text-customPink"
           >
-            Design Concepts I
+            Design Concepts II
           </h1>
         </div>
         <ResponsiveMasonry
@@ -105,18 +105,13 @@ export default function DesignConceptsOne() {
         >
           <Masonry gutter="10px" columnsCount={2}>
             <p className="klara text-center lg:text-start justify-center text-2xl italic p-4 text-customLightPink">
-              A detailed exploration of{" "}
-              <strong>
-                scale and proportion through two and three-dimensional sketch
-                problems
-              </strong>{" "}
-              varying in levels of complexity and duration. Emphasis is placed
-              on setting up proper perspective and generating a line drawing as
-              an underlay. Color marker techniques are stressed as well as color
-              pencil. In addition, pen and ink techniques and pastel are
-              explored.
+              Continuation of Design Concepts I through projects focusing on the
+              design methodology of problem solving. Projects explore design
+              problems through sketches and three-dimensional scaled models of
+              products and spaces.
             </p>
-            {images.map((img) => (
+            <p className="text-customLightPink">COMING SOON</p>
+            {/* {images.map((img) => (
               <img
                 key={img.alt}
                 src={img.src}
@@ -125,7 +120,7 @@ export default function DesignConceptsOne() {
                 width={img.width}
                 height="auto"
               />
-            ))}
+            ))} */}
           </Masonry>
         </ResponsiveMasonry>
       </div>
