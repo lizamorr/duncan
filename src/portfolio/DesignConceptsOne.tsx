@@ -4,68 +4,131 @@ import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 
 const images = [
   {
-    src: "images/color-theory/walter.webp",
-    width: 800,
+    src: "images/design-theory-one/IMG_3584.webp",
+    width: 500,
     height: 636,
-    alt: "Walter White",
+    alt: "yellow shirt",
   },
   {
-    src: "images/color-theory/paint.webp",
-    width: 400,
-    height: 522,
-    alt: "Paint smears",
+    src: "images/design-theory-one/IMG_3856.webp",
+    width: 500,
+    height: 636,
+    alt: "mann front",
   },
   {
-    src: "images/color-theory/denmark.webp",
-    width: 800,
-    height: 612,
-    alt: "Copenhagen",
+    src: "images/design-theory-one/IMG_3857.webp",
+    width: 500,
+    height: 636,
+    alt: "mann back",
   },
   {
-    src: "images/color-theory/nike.webp",
+    src: "images/design-theory-one/IMG_3858.webp",
     maxWidth: 300,
-    width: 400,
-    height: 544,
-    alt: "Nike sneaker",
+    width: 500,
+    height: 636,
+    alt: "mann side",
   },
   {
-    src: "images/color-theory/pig.webp",
+    src: "images/design-theory-one/IMG_7779.webp",
     maxWidth: 500,
-    width: 400,
-    height: 537,
-    alt: "Pig",
+    width: 500,
+    height: 636,
+    alt: "design 1",
+  },
+  {
+    src: "images/design-theory-one/IMG_7780.webp",
+    maxWidth: 500,
+    width: 500,
+    height: 636,
+    alt: "design 2",
+  },
+  {
+    src: "images/design-theory-one/IMG_7781.webp",
+    maxWidth: 500,
+    width: 500,
+    height: 636,
+    alt: "design 3",
+  },
+  {
+    src: "images/design-theory-one/IMG_7837.webp",
+    maxWidth: 500,
+    width: 500,
+    height: 636,
+    alt: "design 4",
+  },
+  {
+    src: "images/design-theory-one/IMG_7838.webp",
+    maxWidth: 500,
+    width: 500,
+    height: 636,
+    alt: "poncho",
+  },
+  {
+    src: "images/design-theory-one/IMG_7839.webp",
+    maxWidth: 500,
+    width: 500,
+    height: 636,
+    alt: "poncho arm",
+  },
+  {
+    src: "images/design-theory-one/IMG_7840.webp",
+    maxWidth: 500,
+    width: 300,
+    height: 400,
+    alt: "man1",
+  },
+  {
+    src: "images/design-theory-one/IMG_7841.webp",
+    maxWidth: 500,
+    width: 300,
+    height: 400,
+    alt: "man2",
   },
 ];
 
 export default function DesignConceptsOne() {
   return (
-    <div className="flex flex-col bg-customPink">
-      <div className="flex flex-row space-x-2">
-        <h1
-          id="color"
-          className="p-4 bebas-neue-regular z-10 title uppercase font-extrabold text-8xl flex float-left text-customRed"
+    <>
+      {/* <div className="wave-blue w-full h-12"></div> */}
+      <div className="flex flex-col bg-customBlue">
+        <div className="flex flex-row space-x-2">
+          <h1
+            id="design-concepts-1"
+            className="p-4 bebas-neue-regular z-10 title uppercase font-extrabold text-8xl flex float-left text-customRed"
+          >
+            Design Concepts 1
+          </h1>
+        </div>
+        <ResponsiveMasonry
+          columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
+          className="p-4"
         >
-          Design Concepts 1
-        </h1>
-        <div className="wave w-full"></div>
+          <Masonry gutter="10px" columnsCount={2}>
+            <p className="klara text-center justify-center text-2xl italic p-4">
+              A detailed exploration of{" "}
+              <strong>
+                scale and proportion through two and three-dimensional sketch
+                problems
+              </strong>{" "}
+              varying in levels of complexity and duration. Emphasis is placed
+              on setting up proper perspective and generating a line drawing as
+              an underlay. Color marker techniques are stressed as well as color
+              pencil. In addition, pen and ink techniques and pastel are
+              explored.
+            </p>
+            {images.map((img) => (
+              <img
+                key={img.alt}
+                src={img.src}
+                alt={img.alt}
+                className="z-50"
+                width={img.width}
+                height="auto"
+              />
+            ))}
+          </Masonry>
+        </ResponsiveMasonry>
       </div>
-      <ResponsiveMasonry
-        columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
-        className="px-4"
-      >
-        <Masonry gutter="10px" columnsCount={2}>
-          <p className="klara text-center justify-center text-2xl italic p-4">
-            A course that teaches students how{" "}
-            <strong>color affects the human mind, body, eye, and spirit</strong>
-            . Students use a variety of art mediums to create artwork that
-            demonstrates their understanding of color theory and how to apply it
-            in the visual arts.
-          </p>
-          {images.map((img) => (
-            <img key={img.alt} src={img.src} alt={img.alt} className="z-50" />
-          ))}
-        </Masonry>
-      </ResponsiveMasonry>
-    </div>
+    </>
   );
 }

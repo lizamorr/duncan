@@ -51,7 +51,7 @@ export default function ColorTheory() {
       </div>
       <ResponsiveMasonry
         columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
-        className="px-4"
+        className="p-4"
       >
         <Masonry gutter="10px" columnsCount={2}>
           <p className="klara text-center justify-center text-2xl italic p-4">
@@ -62,7 +62,14 @@ export default function ColorTheory() {
             in the visual arts.
           </p>
           {images.map((img) => (
-            <img key={img.alt} src={img.src} alt={img.alt} className="z-50" />
+            <img
+              key={img.alt}
+              src={img.src}
+              alt={img.alt}
+              className="z-50"
+              width={img.width}
+              height={img.height}
+            />
           ))}
         </Masonry>
       </ResponsiveMasonry>

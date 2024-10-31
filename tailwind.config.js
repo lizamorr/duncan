@@ -15,7 +15,7 @@ module.exports = {
       fontFamily: {},
     },
     colors: {
-      customBlue: "#ff5733",
+      customBlue: "#02555e",
       customPink: "#cc8983",
       customRed: "#e20000",
       customLightPink: "#eacfcc",
