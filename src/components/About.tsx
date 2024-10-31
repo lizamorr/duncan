@@ -3,7 +3,7 @@ import duncan from '../assets/duncan.webp';
 export default function About() {
   return (
     <div className="flex flex-col md:flex-row p-8 md:p-12 justify-center align-center bg-black">
-      <div className="karla text-base md:text-lg py-4 md:py-8 flex md:flex-col justify-center items-center px-4 md:px-6">
+      <div className="karla text-base md:text-lg py-4 md:py-8 flex flex-col md:flex-row justify-center items-center px-4 md:px-6">
         <div className="flex flex-col justify-center items-center">
           <img
             src={duncan}
