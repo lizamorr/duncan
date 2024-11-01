@@ -8,6 +8,7 @@ import DesignConceptsOne from './portfolio/DesignConceptsOne';
 import DesignConceptsTwo from './portfolio/DesignConceptsTwo';
 import DrawingForDesigners from './portfolio/DrawingForDesigners';
 import DrawingOne from './portfolio/DrawingOne';
+import FashionIllustrator from './portfolio/FashionIllustrator';
 import HistoryOfDesign from './portfolio/HistoryOfDesign';
 import RenderingOne from './portfolio/RenderingOne';
 
@@ -25,6 +26,7 @@ function App() {
       <DrawingForDesigners />
       <RenderingOne />
       <HistoryOfDesign />
+      <FashionIllustrator />
       <ScrollToTopButton />
       <div className="paperOverlay"></div>
     </>
