@@ -337,7 +337,7 @@ export default function DesignConceptsTwo() {
                 key={img.alt}
                 src={img.src}
                 alt={img.alt}
-                className="z-50"
+                className="z-50 m-auto"
                 width={img.width}
                 height="auto"
               />

@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
+import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 
 const images = [
   {
@@ -121,7 +121,7 @@ export default function DesignConceptsOne() {
                 key={img.alt}
                 src={img.src}
                 alt={img.alt}
-                className="z-50"
+                className="z-50 m-auto"
                 width={img.width}
                 height="auto"
               />
