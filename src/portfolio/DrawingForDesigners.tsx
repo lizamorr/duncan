@@ -105,7 +105,7 @@ export default function DrawingForDesigners() {
           </h1>
         </div>
         <div className="p-4 flex flex-col justify-center text-center items-center">
-          <div className="flex md:flex-row flex-col w-full space-y-6 md:space-x-6">
+          <div className="flex lg:flex-row flex-col w-full space-y-6 lg:space-x-6">
             <p className="klara text-center lg:text-start justify-center text-2xl italic p-4 text-customLightPink max-w-[500px]">
               A studio course that introduces the design student to the many
               techniques of drawing required for a design professional. The
@@ -126,7 +126,7 @@ export default function DrawingForDesigners() {
               height="auto"
             />
           </div>
-          <div className="flex md:flex-row flex-col items-center">
+          <div className="flex lg:flex-row flex-col items-center">
             <div className="flex flex-col justify-center">
               <img
                 key={images[2].alt}
@@ -164,7 +164,7 @@ export default function DrawingForDesigners() {
               />
             </div>
           </div>
-          <div className="flex md:flex-row flex-col items-center">
+          <div className="flex lg:flex-row flex-col items-center">
             <div className="flex flex-col justify-center">
               <img
                 key={images[6].alt}
@@ -202,7 +202,7 @@ export default function DrawingForDesigners() {
               />
             </div>
           </div>
-          <div className="flex md:flex-row flex-col items-center">
+          <div className="flex lg:flex-row flex-col items-center">
             <div className="flex flex-col justify-center">
               <img
                 key={images[10].alt}
