@@ -28,8 +28,8 @@ const images = [
 export default function TwoDForDesigners() {
   return (
     <>
-      <div className="py-4 flex flex-col bg-customBlue">
-        <div className="flex flex-row space-x-2">
+      <div className="flex flex-col bg-customBlue">
+        <div className="stars-blue">
           <AnimatedTitle
             text="2D For Designers"
             id="2d-for-designers"

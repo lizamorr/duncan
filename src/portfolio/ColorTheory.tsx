@@ -41,17 +41,16 @@ const images = [
 
 export default function ColorTheory() {
   return (
-    <div className="py-4 flex flex-col bg-customPink">
-      <div className="flex flex-row space-x-2">
+    <div className="flex flex-col bg-customPink">
+      <div className="stripe-pink">
         <AnimatedTitle text="Color Theory" id="color" color="text-customRed" />
-        {/* <div className="wave w-full"></div> */}
       </div>
       <ResponsiveMasonry
         columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
         className="p-2"
       >
         <Masonry gutter="10px" columnsCount={2}>
-          <p className="klara text-start justify-center text-lg lg:text-xl italic p-2 pb-4">
+          <p className="klara text-start justify-center text-lg lg:text-xl italic p-2 pb-4 text-black">
             A course that teaches students how{" "}
             <strong>color affects the human mind, body, eye, and spirit</strong>
             . Students use a variety of art mediums to create artwork that

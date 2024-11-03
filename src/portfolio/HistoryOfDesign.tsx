@@ -84,8 +84,8 @@ const images = [
 export default function HistoryOfDesign() {
   return (
     <>
-      <div className="py-4 flex flex-col bg-customPink">
-        <div className="flex flex-row space-x-2">
+      <div className="flex flex-col bg-customPink">
+        <div className="diamonds-pink">
           <AnimatedTitle
             text="History of Design"
             id="history-of-design"

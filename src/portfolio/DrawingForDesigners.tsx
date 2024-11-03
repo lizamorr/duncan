@@ -96,9 +96,8 @@ const images = [
 export default function DrawingForDesigners() {
   return (
     <>
-      {/* <div className="wave-blue w-full h-12"></div> */}
-      <div className="py-4 flex flex-col bg-customBlue">
-        <div className="flex flex-row space-x-2">
+      <div className="flex flex-col bg-customBlue">
+        <div className="squares-blue">
           <AnimatedTitle
             text="Drawing For Designers"
             id="drawing-for-designers"

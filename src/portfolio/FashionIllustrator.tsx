@@ -26,8 +26,8 @@ const images = [
 export default function FashionIllustrator() {
   return (
     <>
-      <div className="py-4 flex flex-col bg-black pb-8">
-        <div className="flex flex-row space-x-2">
+      <div className="flex flex-col bg-black pb-8">
+        <div className="melt-black">
           <AnimatedTitle
             text="Fashion Illustrator"
             id="fashion-illustrator"

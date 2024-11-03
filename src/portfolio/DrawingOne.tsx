@@ -91,8 +91,8 @@ const images = [
 export default function DrawingOne() {
   return (
     <>
-      <div className="py-4 flex flex-col bg-customPink">
-        <div className="flex flex-row space-x-2">
+      <div className="flex flex-col bg-customPink">
+        <div className="hunds-pink">
           <AnimatedTitle
             text="Drawing I"
             id="drawing-1"

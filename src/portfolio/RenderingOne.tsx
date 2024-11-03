@@ -40,8 +40,8 @@ const images = [
 export default function RenderingOne() {
   return (
     <>
-      <div className="py-4 flex flex-col bg-customLightPink">
-        <div className="flex flex-row space-x-2">
+      <div className="flex flex-col bg-customLightPink">
+        <div className="curtain-pink">
           <AnimatedTitle
             text="Rendering I"
             id="rendering-1"

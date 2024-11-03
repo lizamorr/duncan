@@ -313,9 +313,8 @@ const shortImages = [
 export default function DesignConceptsTwo() {
   return (
     <>
-      {/* <div className="wave-blue w-full h-12"></div> */}
-      <div className="py-4 flex flex-col bg-black pb-8">
-        <div className="flex flex-row space-x-2">
+      <div className="flex flex-col bg-black pb-8">
+        <div className="lava-black">
           <AnimatedTitle
             text="Design Concepts II"
             id="design-concepts-2"
