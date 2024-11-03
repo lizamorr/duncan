@@ -104,7 +104,7 @@ export default function DrawingForDesigners() {
             color="text-customRed"
           />
         </div>
-        <div className="p-4 flex flex-col justify-center text-center items-center">
+        <div className="p-4 lg:p-8 flex flex-col justify-center text-center items-center">
           <div className="flex lg:flex-row flex-col w-full space-y-6 lg:space-x-6">
             <p className="klara text-start justify-center text-lg lg:text-xl italic p-2 pb-4 text-customLightPink max-w-[500px]">
               A studio course that introduces the design student to the many
@@ -121,7 +121,7 @@ export default function DrawingForDesigners() {
               key={images[0].alt}
               src={images[0].src}
               alt={images[0].alt}
-              className="z-50 p-4"
+              className="z-50 p-4 rounded-md"
               width={images[0].width}
               height="auto"
             />
@@ -132,7 +132,7 @@ export default function DrawingForDesigners() {
                 key={images[2].alt}
                 src={images[2].src}
                 alt={images[2].alt}
-                className="z-50 p-4"
+                className="z-50 p-4 rounded-md"
                 width={images[2].width}
                 height="auto"
               />
@@ -140,7 +140,7 @@ export default function DrawingForDesigners() {
                 key={images[3].alt}
                 src={images[3].src}
                 alt={images[3].alt}
-                className="z-50 p-4"
+                className="z-50 p-4 rounded-md"
                 width={images[3].width}
                 height="auto"
               />
@@ -148,7 +148,7 @@ export default function DrawingForDesigners() {
                 key={images[4].alt}
                 src={images[4].src}
                 alt={images[4].alt}
-                className="z-50 p-4"
+                className="z-50 p-4 rounded-md"
                 width={images[4].width}
                 height="auto"
               />
@@ -158,7 +158,7 @@ export default function DrawingForDesigners() {
                 key={images[1].alt}
                 src={images[1].src}
                 alt={images[1].alt}
-                className="z-50 p-4"
+                className="z-50 p-4 rounded-md"
                 width={images[1].width}
                 height="auto"
               />
@@ -170,7 +170,7 @@ export default function DrawingForDesigners() {
                 key={images[6].alt}
                 src={images[6].src}
                 alt={images[6].alt}
-                className="z-50 p-4"
+                className="z-50 p-4 rounded-md"
                 width={images[6].width}
                 height="auto"
               />
@@ -178,7 +178,7 @@ export default function DrawingForDesigners() {
                 key={images[7].alt}
                 src={images[7].src}
                 alt={images[7].alt}
-                className="z-50 p-4"
+                className="z-50 p-4 rounded-md"
                 width={images[7].width}
                 height="auto"
               />
@@ -186,7 +186,7 @@ export default function DrawingForDesigners() {
                 key={images[8].alt}
                 src={images[8].src}
                 alt={images[8].alt}
-                className="z-50 p-4"
+                className="z-50 p-4 rounded-md"
                 width={images[4].width}
                 height="auto"
               />
@@ -196,7 +196,7 @@ export default function DrawingForDesigners() {
                 key={images[5].alt}
                 src={images[5].src}
                 alt={images[5].alt}
-                className="z-50 p-4"
+                className="z-50 p-4 rounded-md"
                 width={images[5].width}
                 height="auto"
               />
@@ -208,7 +208,7 @@ export default function DrawingForDesigners() {
                 key={images[10].alt}
                 src={images[10].src}
                 alt={images[10].alt}
-                className="z-50 p-4"
+                className="z-50 p-4 rounded-md"
                 width={images[10].width}
                 height="auto"
               />
@@ -216,7 +216,7 @@ export default function DrawingForDesigners() {
                 key={images[11].alt}
                 src={images[11].src}
                 alt={images[11].alt}
-                className="z-50 p-4"
+                className="z-50 p-4 rounded-md"
                 width={images[11].width}
                 height="auto"
               />
@@ -224,7 +224,7 @@ export default function DrawingForDesigners() {
                 key={images[12].alt}
                 src={images[12].src}
                 alt={images[12].alt}
-                className="z-50 p-4"
+                className="z-50 p-4 rounded-md"
                 width={images[12].width}
                 height="auto"
               />
@@ -234,7 +234,7 @@ export default function DrawingForDesigners() {
                 key={images[9].alt}
                 src={images[9].src}
                 alt={images[9].alt}
-                className="z-50 p-4"
+                className="z-50 p-4 rounded-md"
                 width={images[9].width}
                 height="auto"
               />

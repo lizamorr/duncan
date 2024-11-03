@@ -101,7 +101,7 @@ export default function DrawingOne() {
         </div>
         <ResponsiveMasonry
           columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
-          className="p-2"
+          className="p-4 lg:p-8"
         >
           <Masonry gutter="10px" columnsCount={2}>
             {images.map((img) => (
@@ -109,7 +109,7 @@ export default function DrawingOne() {
                 key={img.alt}
                 src={img.src}
                 alt={img.alt}
-                className="z-50"
+                className="z-50 rounded-md m-auto"
                 width={img.width}
                 height="auto"
               />

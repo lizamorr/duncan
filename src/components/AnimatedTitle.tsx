@@ -47,7 +47,7 @@ export default function AnimatedTitle({ text, id, color }: AnimatedTitleProps) {
   };
 
   return (
-    <div id={id} className={`p-4 flex float-left ${color}`}>
+    <div id={id} className={`p-4 lg:p-8 flex float-left ${color}`}>
       <h1
         aria-label={text}
         className="bebas-neue-regular z-10 uppercase font-extrabold text-8xl"

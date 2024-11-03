@@ -34,7 +34,7 @@ export default function FashionIllustrator() {
             color="text-customRed"
           />
         </div>
-        <div className="p-4 flex flex-col justify-center text-center items-center">
+        <div className="p-4 lg:p-8 flex flex-col justify-center text-center items-center">
           <div className="flex">
             <p className="klara text-start justify-center text-lg lg:text-xl italic p-2 pb-4 text-customLightPink w-full lg:max-w-[50%]">
               Fashion Design and Fashion Merchandising students learn to{" "}
@@ -52,7 +52,7 @@ export default function FashionIllustrator() {
                 key={img.alt}
                 src={img.original}
                 alt={img.alt}
-                className="z-50 p-4"
+                className="z-50 p-4 rounded-md"
                 width={img.width}
                 height="auto"
               />

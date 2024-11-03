@@ -101,7 +101,7 @@ export default function DesignConceptsOne() {
         </div>
         <ResponsiveMasonry
           columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
-          className="p-2"
+          className="p-4 lg:p-8"
         >
           <Masonry gutter="10px" columnsCount={2}>
             <p className="klara text-start justify-center text-lg lg:text-xl italic p-2 pb-4 text-customLightPink">
@@ -121,7 +121,7 @@ export default function DesignConceptsOne() {
                 key={img.alt}
                 src={img.src}
                 alt={img.alt}
-                className="z-50 m-auto"
+                className="z-50 m-auto rounded-md"
                 width={img.width}
                 height="auto"
               />

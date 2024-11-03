@@ -49,7 +49,7 @@ export default function RenderingOne() {
           />
         </div>
 
-        <div className="p-4 flex flex-col justify-center text-center items-center">
+        <div className="p-4 lg:p-8 flex flex-col justify-center text-center items-center">
           <div className="flex">
             <p className="klara text-start justify-center text-lg lg:text-xl italic p-2 pb-4 text-black w-full lg:max-w-[50%]">
               Design Rendering is an advanced-level studio course that builds on
@@ -67,7 +67,7 @@ export default function RenderingOne() {
               key={images[0].alt}
               src={images[0].src}
               alt={images[0].alt}
-              className="z-50 p-4"
+              className="z-50 p-4 rounded-md"
               width={images[0].width}
               height="auto"
             />
@@ -77,7 +77,7 @@ export default function RenderingOne() {
               key={images[1].alt}
               src={images[1].src}
               alt={images[1].alt}
-              className="z-50 p-4"
+              className="z-50 p-4 rounded-md"
               width={images[1].width}
               height="auto"
             />
@@ -85,7 +85,7 @@ export default function RenderingOne() {
               key={images[2].alt}
               src={images[2].src}
               alt={images[2].alt}
-              className="z-50 p-4"
+              className="z-50 p-4 rounded-md"
               width={images[2].width}
               height="auto"
             />
@@ -95,7 +95,7 @@ export default function RenderingOne() {
               key={images[3].alt}
               src={images[3].src}
               alt={images[3].alt}
-              className="z-50 p-4"
+              className="z-50 p-4 rounded-md"
               width={images[3].width}
               height="auto"
             />
@@ -103,7 +103,7 @@ export default function RenderingOne() {
               key={images[4].alt}
               src={images[4].src}
               alt={images[4].alt}
-              className="z-50 p-4"
+              className="z-50 p-4 rounded-md"
               width={images[4].width}
               height="auto"
             />

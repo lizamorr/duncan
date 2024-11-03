@@ -92,7 +92,9 @@ export default function HistoryOfDesign() {
             color="text-customBlue"
           />
         </div>
-        <ImageGallery items={images} />;
+        <div className="p-4 lg:p-8">
+          <ImageGallery items={images} />
+        </div>
       </div>
     </>
   );
