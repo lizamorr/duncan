@@ -52,7 +52,7 @@ export default function ColorTheory() {
         className="p-4 lg:p-8"
       >
         <Masonry gutter="10px" columnsCount={2}>
-          <p className="klara text-start justify-center text-lg lg:text-xl italic p-2 pb-4 text-black">
+          <p className="klara text-start justify-center text-lg lg:text-xl p-2 pb-4 text-black">
             A course that teaches students how{" "}
             <strong>color affects the human mind, body, eye, and spirit</strong>
             . Students use a variety of art mediums to create artwork that

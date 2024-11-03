@@ -52,7 +52,7 @@ export default function RenderingOne() {
 
       <div className="p-4 lg:p-8 flex flex-col justify-center text-center items-center">
         <div className="flex lg:flex-row flex-col w-full space-y-6 lg:space-x-6">
-          <p className="klara text-start justify-center text-lg lg:text-xl italic p-2 pb-4 text-black max-w-[500px]">
+          <p className="klara text-start justify-center text-lg lg:text-xl p-2 pb-4 text-black max-w-[500px]">
             Design Rendering is an advanced-level studio course that builds on
             the work completed in Drawing I, II and Drawing for Designers. The
             course{" "}
