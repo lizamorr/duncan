@@ -328,9 +328,9 @@ export default function DesignConceptsTwo() {
           <Masonry gutter="10px" columnsCount={2}>
             <p className="klara text-start justify-center text-lg lg:text-xl italic p-2 pb-4 text-customLightPink">
               Continuation of Design Concepts I through projects focusing on the
-              design methodology of problem solving. Projects explore design
-              problems through sketches and three-dimensional scaled models of
-              products and spaces.
+              <strong>design methodology of problem solving</strong>. Projects
+              explore design problems through sketches and three-dimensional
+              scaled models of products and spaces.
             </p>
             {images.map((img) => (
               <img
