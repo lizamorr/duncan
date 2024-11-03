@@ -3,6 +3,7 @@ import React from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 import AnimatedTitle from "../components/AnimatedTitle";
+import RepeatX from "../components/RepeatX";
 
 const images = [
   {
@@ -42,6 +43,7 @@ const images = [
 export default function ColorTheory() {
   return (
     <div className="flex flex-col bg-customPink">
+      <RepeatX color="text-customBlue" />
       <div className="stripe-pink">
         <AnimatedTitle text="Color Theory" id="color" color="text-customRed" />
       </div>
