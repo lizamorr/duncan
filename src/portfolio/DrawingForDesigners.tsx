@@ -1,6 +1,7 @@
 import React from "react";
 
 import AnimatedTitle from "../components/AnimatedTitle";
+import RepeatX from "../components/RepeatX";
 
 const images = [
   {
@@ -95,7 +96,8 @@ const images = [
 
 export default function DrawingForDesigners() {
   return (
-    <div className="flex flex-col bg-customBlue">
+    <div className="flex flex-col bg-customBlue pb-8">
+      <RepeatX color="text-black" />
       <div className="squares-blue">
         <AnimatedTitle
           text="Drawing For Designers"

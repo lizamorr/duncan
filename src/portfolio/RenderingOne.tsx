@@ -1,6 +1,7 @@
 import React from "react";
 
 import AnimatedTitle from "../components/AnimatedTitle";
+import RepeatX from "../components/RepeatX";
 
 const images = [
   {
@@ -39,7 +40,8 @@ const images = [
 
 export default function RenderingOne() {
   return (
-    <div className="flex flex-col bg-customLightPink">
+    <div className="flex flex-col bg-customLightPink pb-8">
+      <RepeatX color="text-customRed" />
       <div className="curtain-pink">
         <AnimatedTitle
           text="Rendering I"

@@ -3,6 +3,7 @@ import React from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 import AnimatedTitle from "../components/AnimatedTitle";
+import RepeatX from "../components/RepeatX";
 
 const images = [
   {
@@ -27,33 +28,32 @@ const images = [
 
 export default function TwoDForDesigners() {
   return (
-    <>
-      <div className="flex flex-col bg-customBlue">
-        <div className="stars-blue">
-          <AnimatedTitle
-            text="2D For Designers"
-            id="2d-for-designers"
-            color="text-customPink"
-          />
-        </div>
-        <ResponsiveMasonry
-          columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
-          className="p-4 lg:p-8"
-        >
-          <Masonry gutter="10px" columnsCount={2}>
-            {images.map((img) => (
-              <img
-                key={img.alt}
-                src={img.src}
-                alt={img.alt}
-                className="z-50 m-auto rounded-md"
-                width={img.width}
-                height="auto"
-              />
-            ))}
-          </Masonry>
-        </ResponsiveMasonry>
+    <div className="flex flex-col bg-customBlue pb-8">
+      <RepeatX color="text-customPink" />
+      <div className="stars-blue">
+        <AnimatedTitle
+          text="2D For Designers"
+          id="2d-for-designers"
+          color="text-customPink"
+        />
       </div>
-    </>
+      <ResponsiveMasonry
+        columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
+        className="p-4 lg:p-8"
+      >
+        <Masonry gutter="10px" columnsCount={2}>
+          {images.map((img) => (
+            <img
+              key={img.alt}
+              src={img.src}
+              alt={img.alt}
+              className="z-50 m-auto rounded-md"
+              width={img.width}
+              height="auto"
+            />
+          ))}
+        </Masonry>
+      </ResponsiveMasonry>
+    </div>
   );
 }

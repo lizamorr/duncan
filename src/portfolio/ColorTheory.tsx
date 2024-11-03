@@ -42,7 +42,7 @@ const images = [
 
 export default function ColorTheory() {
   return (
-    <div className="flex flex-col bg-customPink">
+    <div className="flex flex-col bg-customPink pb-8">
       <RepeatX color="text-customBlue" />
       <div className="stripe-pink">
         <AnimatedTitle text="Color Theory" id="color" color="text-customRed" />

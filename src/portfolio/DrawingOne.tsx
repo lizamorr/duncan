@@ -3,6 +3,7 @@ import React from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 import AnimatedTitle from "../components/AnimatedTitle";
+import RepeatX from "../components/RepeatX";
 
 const images = [
   {
@@ -90,33 +91,28 @@ const images = [
 
 export default function DrawingOne() {
   return (
-    <>
-      <div className="flex flex-col bg-customPink">
-        <div className="hunds-pink">
-          <AnimatedTitle
-            text="Drawing I"
-            id="drawing-1"
-            color="text-customRed"
-          />
-        </div>
-        <ResponsiveMasonry
-          columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
-          className="p-4 lg:p-8"
-        >
-          <Masonry gutter="10px" columnsCount={2}>
-            {images.map((img) => (
-              <img
-                key={img.alt}
-                src={img.src}
-                alt={img.alt}
-                className="z-50 rounded-md m-auto"
-                width={img.width}
-                height="auto"
-              />
-            ))}
-          </Masonry>
-        </ResponsiveMasonry>
+    <div className="flex flex-col bg-customPink pb-8">
+      <RepeatX color="text-customBlue" />
+      <div className="hunds-pink">
+        <AnimatedTitle text="Drawing I" id="drawing-1" color="text-customRed" />
       </div>
-    </>
+      <ResponsiveMasonry
+        columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
+        className="p-4 lg:p-8"
+      >
+        <Masonry gutter="10px" columnsCount={2}>
+          {images.map((img) => (
+            <img
+              key={img.alt}
+              src={img.src}
+              alt={img.alt}
+              className="z-50 rounded-md m-auto"
+              width={img.width}
+              height="auto"
+            />
+          ))}
+        </Masonry>
+      </ResponsiveMasonry>
+    </div>
   );
 }

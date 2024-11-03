@@ -5,6 +5,7 @@ import React from "react";
 import ImageGallery from "react-image-gallery";
 
 import AnimatedTitle from "../components/AnimatedTitle";
+import RepeatX from "../components/RepeatX";
 
 const images = [
   {
@@ -83,19 +84,18 @@ const images = [
 
 export default function HistoryOfDesign() {
   return (
-    <>
-      <div className="flex flex-col bg-customPink">
-        <div className="diamonds-pink">
-          <AnimatedTitle
-            text="History of Design"
-            id="history-of-design"
-            color="text-customBlue"
-          />
-        </div>
-        <div className="p-4 lg:p-8">
-          <ImageGallery items={images} />
-        </div>
+    <div className="flex flex-col bg-customPink pb-8">
+      <RepeatX color="text-customRed" />
+      <div className="diamonds-pink">
+        <AnimatedTitle
+          text="History of Design"
+          id="history-of-design"
+          color="text-customBlue"
+        />
       </div>
-    </>
+      <div className="p-4 lg:p-8">
+        <ImageGallery items={images} />
+      </div>
+    </div>
   );
 }

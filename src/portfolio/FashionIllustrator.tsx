@@ -1,6 +1,7 @@
 import React from "react";
 
 import AnimatedTitle from "../components/AnimatedTitle";
+import RepeatX from "../components/RepeatX";
 
 const images = [
   {
@@ -26,6 +27,7 @@ const images = [
 export default function FashionIllustrator() {
   return (
     <div className="flex flex-col bg-black pb-8">
+      <RepeatX color="text-customBlue" />
       <div className="melt-black">
         <AnimatedTitle
           text="Fashion Illustrator"

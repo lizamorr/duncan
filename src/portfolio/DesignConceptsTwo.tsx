@@ -4,6 +4,7 @@ import ImageGallery from "react-image-gallery";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 import AnimatedTitle from "../components/AnimatedTitle";
+import RepeatX from "../components/RepeatX";
 
 const images = [
   {
@@ -314,6 +315,7 @@ export default function DesignConceptsTwo() {
   return (
     <>
       <div className="flex flex-col bg-black pb-8">
+        <RepeatX color="text-customLightPink" />
         <div className="lava-black">
           <AnimatedTitle
             text="Design Concepts II"
