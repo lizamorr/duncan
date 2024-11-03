@@ -316,7 +316,7 @@ export default function DesignConceptsTwo() {
     <>
       <div className="flex flex-col bg-black pb-8">
         <RepeatX color="text-customLightPink" />
-        <div className="lava-black">
+        <div className="lava-black mt-[-14px]">
           <AnimatedTitle
             text="Design Concepts II"
             id="design-concepts-2"

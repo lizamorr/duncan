@@ -98,7 +98,7 @@ export default function DrawingForDesigners() {
   return (
     <div className="flex flex-col bg-customBlue pb-8">
       <RepeatX color="text-black" />
-      <div className="squares-blue">
+      <div className="squares-blue mt-[-14px]">
         <AnimatedTitle
           text="Drawing For Designers"
           id="drawing-for-designers"

@@ -93,7 +93,7 @@ export default function DrawingOne() {
   return (
     <div className="flex flex-col bg-customPink pb-8">
       <RepeatX color="text-customBlue" />
-      <div className="hunds-pink">
+      <div className="hunds-pink mt-[-14px]">
         <AnimatedTitle text="Drawing I" id="drawing-1" color="text-customRed" />
       </div>
       <ResponsiveMasonry

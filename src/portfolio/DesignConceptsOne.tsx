@@ -93,7 +93,7 @@ export default function DesignConceptsOne() {
   return (
     <div className="flex flex-col bg-customBlue pb-8">
       <RepeatX color="text-black" />
-      <div className="lips-blue">
+      <div className="lips-blue mt-[-14px]">
         <AnimatedTitle
           text="Design Concepts I"
           id="design-concepts-1"

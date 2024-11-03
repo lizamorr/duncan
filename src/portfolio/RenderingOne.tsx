@@ -42,7 +42,7 @@ export default function RenderingOne() {
   return (
     <div className="flex flex-col bg-customLightPink pb-8">
       <RepeatX color="text-customRed" />
-      <div className="curtain-pink">
+      <div className="curtain-pink mt-[-14px]">
         <AnimatedTitle
           text="Rendering I"
           id="rendering-1"

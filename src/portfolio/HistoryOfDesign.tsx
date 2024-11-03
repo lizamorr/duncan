@@ -86,7 +86,7 @@ export default function HistoryOfDesign() {
   return (
     <div className="flex flex-col bg-customPink pb-8">
       <RepeatX color="text-customRed" />
-      <div className="diamonds-pink">
+      <div className="diamonds-pink mt-[-14px]">
         <AnimatedTitle
           text="History of Design"
           id="history-of-design"

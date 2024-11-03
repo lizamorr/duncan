@@ -44,7 +44,7 @@ export default function ColorTheory() {
   return (
     <div className="flex flex-col bg-customPink pb-8">
       <RepeatX color="text-customBlue" />
-      <div className="stripe-pink">
+      <div className="stripe-pink mt-[-14px]">
         <AnimatedTitle text="Color Theory" id="color" color="text-customRed" />
       </div>
       <ResponsiveMasonry

@@ -30,7 +30,7 @@ export default function TwoDForDesigners() {
   return (
     <div className="flex flex-col bg-customBlue pb-8">
       <RepeatX color="text-customPink" />
-      <div className="stars-blue">
+      <div className="stars-blue mt-[-14px]">
         <AnimatedTitle
           text="2D For Designers"
           id="2d-for-designers"

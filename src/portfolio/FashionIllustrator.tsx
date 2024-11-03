@@ -28,7 +28,7 @@ export default function FashionIllustrator() {
   return (
     <div className="flex flex-col bg-black pb-8">
       <RepeatX color="text-customBlue" />
-      <div className="melt-black">
+      <div className="melt-black mt-[-14px]">
         <AnimatedTitle
           text="Fashion Illustrator"
           id="fashion-illustrator"
