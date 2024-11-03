@@ -1,5 +1,7 @@
 import React from "react";
 
+import AnimatedTitle from "../components/AnimatedTitle";
+
 const images = [
   {
     src: "images/drawing-for-designers/mountains.webp",
@@ -97,12 +99,11 @@ export default function DrawingForDesigners() {
       {/* <div className="wave-blue w-full h-12"></div> */}
       <div className="flex flex-col bg-customBlue">
         <div className="flex flex-row space-x-2">
-          <h1
+          <AnimatedTitle
+            text="Drawing For Designers"
             id="drawing-for-designers"
-            className="p-4 bebas-neue-regular z-10  uppercase font-extrabold text-8xl flex float-left text-customRed"
-          >
-            Drawing For Designers
-          </h1>
+            color="text-customRed"
+          />
         </div>
         <div className="p-4 flex flex-col justify-center text-center items-center">
           <div className="flex lg:flex-row flex-col w-full space-y-6 lg:space-x-6">

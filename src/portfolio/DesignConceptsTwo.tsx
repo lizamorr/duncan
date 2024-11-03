@@ -3,6 +3,8 @@ import React from "react";
 import ImageGallery from "react-image-gallery";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
+import AnimatedTitle from "../components/AnimatedTitle";
+
 const images = [
   {
     src: "images/design-concepts-two/IMG_6173.webp",
@@ -314,12 +316,11 @@ export default function DesignConceptsTwo() {
       {/* <div className="wave-blue w-full h-12"></div> */}
       <div className="flex flex-col bg-black pb-8">
         <div className="flex flex-row space-x-2">
-          <h1
+          <AnimatedTitle
+            text="Design Concepts II"
             id="design-concepts-2"
-            className="p-4 bebas-neue-regular z-10  uppercase font-extrabold text-8xl flex float-left text-customPink"
-          >
-            Design Concepts II
-          </h1>
+            color="text-customPink"
+          />
         </div>
         <ResponsiveMasonry
           columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}

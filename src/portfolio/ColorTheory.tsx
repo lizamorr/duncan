@@ -2,6 +2,8 @@ import React from "react";
 
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
+import AnimatedTitle from "../components/AnimatedTitle";
+
 const images = [
   {
     src: "images/color-theory/walter.webp",
@@ -41,12 +43,7 @@ export default function ColorTheory() {
   return (
     <div className="flex flex-col bg-customPink">
       <div className="flex flex-row space-x-2">
-        <h1
-          id="color"
-          className="p-4 bebas-neue-regular z-10  uppercase font-extrabold text-8xl flex float-left text-customRed"
-        >
-          Color Theory
-        </h1>
+        <AnimatedTitle text="Color Theory" id="color" color="text-customRed" />
         <div className="wave w-full"></div>
       </div>
       <ResponsiveMasonry

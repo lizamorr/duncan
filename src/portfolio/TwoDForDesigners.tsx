@@ -2,6 +2,8 @@ import React from "react";
 
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
+import AnimatedTitle from "../components/AnimatedTitle";
+
 const images = [
   {
     src: "images/two-d-for-designers/abstract.webp",
@@ -28,12 +30,11 @@ export default function TwoDForDesigners() {
     <>
       <div className="flex flex-col bg-customBlue">
         <div className="flex flex-row space-x-2">
-          <h1
+          <AnimatedTitle
+            text="2D For Designers"
             id="2d-for-designers"
-            className="p-4 bebas-neue-regular z-10  uppercase font-extrabold text-8xl flex float-left text-customPink"
-          >
-            2D For Designers
-          </h1>
+            color="text-customPink"
+          />
         </div>
         <ResponsiveMasonry
           columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}

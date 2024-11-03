@@ -4,6 +4,8 @@ import React from "react";
 
 import ImageGallery from "react-image-gallery";
 
+import AnimatedTitle from "../components/AnimatedTitle";
+
 const images = [
   {
     original: "images/history-of-design/slide1.webp",
@@ -84,12 +86,11 @@ export default function HistoryOfDesign() {
     <>
       <div className="flex flex-col bg-customPink">
         <div className="flex flex-row space-x-2">
-          <h1
+          <AnimatedTitle
+            text="History of Design"
             id="history-of-design"
-            className="p-4 bebas-neue-regular z-10  uppercase font-extrabold text-8xl flex float-left text-customRed"
-          >
-            History of Design
-          </h1>
+            color="text-customBlue"
+          />
         </div>
         <ImageGallery items={images} />;
       </div>

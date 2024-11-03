@@ -2,6 +2,8 @@ import React from "react";
 
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
+import AnimatedTitle from "../components/AnimatedTitle";
+
 const images = [
   {
     src: "images/drawing-one/horse.webp",
@@ -91,12 +93,11 @@ export default function DrawingOne() {
     <>
       <div className="flex flex-col bg-customPink">
         <div className="flex flex-row space-x-2">
-          <h1
+          <AnimatedTitle
+            text="Drawing I"
             id="drawing-1"
-            className="p-4 bebas-neue-regular z-10  uppercase font-extrabold text-8xl flex float-left text-customRed"
-          >
-            Drawing I
-          </h1>
+            color="text-customRed"
+          />
         </div>
         <ResponsiveMasonry
           columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}

@@ -1,5 +1,7 @@
 import React from "react";
 
+import AnimatedTitle from "../components/AnimatedTitle";
+
 const images = [
   {
     original: "images/fashion-illustrator/name.webp",
@@ -26,12 +28,11 @@ export default function FashionIllustrator() {
     <>
       <div className="flex flex-col bg-black pb-8">
         <div className="flex flex-row space-x-2">
-          <h1
+          <AnimatedTitle
+            text="Fashion Illustrator"
             id="fashion-illustrator"
-            className="p-4 bebas-neue-regular z-10  uppercase font-extrabold text-8xl flex float-left text-customRed"
-          >
-            Fashion Illustrator
-          </h1>
+            color="text-customRed"
+          />
         </div>
         <div className="p-4 flex flex-col justify-center text-center items-center">
           <div className="flex">

@@ -1,5 +1,7 @@
 import React from "react";
 
+import AnimatedTitle from "../components/AnimatedTitle";
+
 const images = [
   {
     src: "images/rendering/vogue.webp",
@@ -40,12 +42,11 @@ export default function RenderingOne() {
     <>
       <div className="flex flex-col bg-customLightPink">
         <div className="flex flex-row space-x-2">
-          <h1
+          <AnimatedTitle
+            text="Rendering I"
             id="rendering-1"
-            className="p-4 bebas-neue-regular z-10  uppercase font-extrabold text-8xl flex float-left text-customBlue"
-          >
-            Rendering I
-          </h1>
+            color="text-customBlue"
+          />
         </div>
 
         <div className="p-4 flex flex-col justify-center text-center items-center">

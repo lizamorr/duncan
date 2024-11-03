@@ -29,6 +29,7 @@ export default function About() {
             className="rounded-full h-40 w-40 lg:h-52 lg:w-52 border border-customLightPink"
             alt="logo"
           />
+
           <p className="header pt-2 lg:pt-8 text-customPink leading-[50px]">
             Duncan Morrison
           </p>
