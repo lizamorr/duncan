@@ -38,14 +38,19 @@ export default function About() {
         </div>
         <div className="flex flex-col flex-1 p-2 lg:p-8 lg:min-w-[500px]">
           <p className="pt-4 text-customLightPink text-start">
-            Duncan is a <strong>Creative Fashion Designer</strong> that is
-            business oriented with a gender-neutral streetwear approach.
-            Aspiring fashion designer creates <strong>imaginative</strong>,{" "}
-            <strong>spirited</strong>, and <strong>high-polished</strong>{" "}
-            designs surrounded by his lifestyle taste and passion for nature,
-            family & love, sports, and culture. Duncan's designs represent the
-            tasteful things he enjoys in life and that others may enjoy or find
-            a liking to as well.
+            Duncan is a{" "}
+            <strong className="text-customPink">
+              Creative Fashion Designer
+            </strong>{" "}
+            that is business oriented with a gender-neutral streetwear approach.
+            Aspiring fashion designer creates{" "}
+            <strong className="text-customPink">imaginative</strong>,{" "}
+            <strong className="text-customPink">spirited</strong>, and{" "}
+            <strong className="text-customPink">high-polished</strong> designs
+            surrounded by his lifestyle taste and passion for nature, family &
+            love, sports, and culture. Duncan's designs represent the tasteful
+            things he enjoys in life and that others may enjoy or find a liking
+            to as well.
           </p>
           <p className="italic text-customLightPink pt-3 text-end">
             He hopes each of his designs are full of life and that each clothing
