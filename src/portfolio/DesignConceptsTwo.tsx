@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import ImageGallery from 'react-image-gallery';
-import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
+import ImageGallery from "react-image-gallery";
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 const images = [
   {
@@ -316,7 +316,7 @@ export default function DesignConceptsTwo() {
         <div className="flex flex-row space-x-2">
           <h1
             id="design-concepts-2"
-            className="p-4 bebas-neue-regular z-10 title uppercase font-extrabold text-8xl flex float-left text-customPink"
+            className="p-4 bebas-neue-regular z-10  uppercase font-extrabold text-8xl flex float-left text-customPink"
           >
             Design Concepts II
           </h1>
@@ -326,7 +326,7 @@ export default function DesignConceptsTwo() {
           className="p-4"
         >
           <Masonry gutter="10px" columnsCount={2}>
-            <p className="klara text-center lg:text-start justify-center text-2xl italic p-4 text-customLightPink">
+            <p className="klara text-start justify-center text-2xl italic p-4 text-customLightPink">
               Continuation of Design Concepts I through projects focusing on the
               design methodology of problem solving. Projects explore design
               problems through sketches and three-dimensional scaled models of

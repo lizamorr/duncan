@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 const images = [
   {
@@ -30,7 +30,7 @@ export default function TwoDForDesigners() {
         <div className="flex flex-row space-x-2">
           <h1
             id="2d-for-designers"
-            className="p-4 bebas-neue-regular z-10 title uppercase font-extrabold text-8xl flex float-left text-customPink"
+            className="p-4 bebas-neue-regular z-10  uppercase font-extrabold text-8xl flex float-left text-customPink"
           >
             2D For Designers
           </h1>

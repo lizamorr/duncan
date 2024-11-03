@@ -28,14 +28,14 @@ export default function FashionIllustrator() {
         <div className="flex flex-row space-x-2">
           <h1
             id="fashion-illustrator"
-            className="p-4 bebas-neue-regular z-10 title uppercase font-extrabold text-8xl flex float-left text-customRed"
+            className="p-4 bebas-neue-regular z-10  uppercase font-extrabold text-8xl flex float-left text-customRed"
           >
             Fashion Illustrator
           </h1>
         </div>
         <div className="p-4 flex flex-col justify-center text-center items-center">
           <div className="flex">
-            <p className="klara text-center lg:text-start justify-center text-2xl italic p-4 text-customLightPink w-full lg:max-w-[50%]">
+            <p className="klara text-start justify-center text-2xl italic p-4 text-customLightPink w-full lg:max-w-[50%]">
               Fashion Design and Fashion Merchandising students learn to{" "}
               <strong>
                 design fashion garments and generate fashion promotional

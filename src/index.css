@@ -37,11 +37,6 @@ code {
   font-style: normal;
 }
 
-.title {
-  text-align-last: right;
-  text-align: justify;
-}
-
 .checkers {
   /* Initial checkerboard pattern */
   background: repeating-conic-gradient(#25555e 0% 25%, transparent 0% 50%) 50% /

@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 const images = [
   {
@@ -94,7 +94,7 @@ export default function DesignConceptsOne() {
         <div className="flex flex-row space-x-2">
           <h1
             id="design-concepts-1"
-            className="p-4 bebas-neue-regular z-10 title uppercase font-extrabold text-8xl flex float-left text-customRed"
+            className="p-4 bebas-neue-regular z-10  uppercase font-extrabold text-8xl flex float-left text-customRed"
           >
             Design Concepts I
           </h1>
@@ -104,7 +104,7 @@ export default function DesignConceptsOne() {
           className="p-4"
         >
           <Masonry gutter="10px" columnsCount={2}>
-            <p className="klara text-center lg:text-start justify-center text-2xl italic p-4 text-customLightPink">
+            <p className="klara text-start justify-center text-2xl italic p-4 text-customLightPink">
               A detailed exploration of{" "}
               <strong>
                 scale and proportion through two and three-dimensional sketch

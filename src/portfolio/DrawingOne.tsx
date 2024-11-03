@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 const images = [
   {
@@ -93,7 +93,7 @@ export default function DrawingOne() {
         <div className="flex flex-row space-x-2">
           <h1
             id="drawing-1"
-            className="p-4 bebas-neue-regular z-10 title uppercase font-extrabold text-8xl flex float-left text-customRed"
+            className="p-4 bebas-neue-regular z-10  uppercase font-extrabold text-8xl flex float-left text-customRed"
           >
             Drawing I
           </h1>

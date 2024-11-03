@@ -42,7 +42,7 @@ export default function RenderingOne() {
         <div className="flex flex-row space-x-2">
           <h1
             id="rendering-1"
-            className="p-4 bebas-neue-regular z-10 title uppercase font-extrabold text-8xl flex float-left text-customBlue"
+            className="p-4 bebas-neue-regular z-10  uppercase font-extrabold text-8xl flex float-left text-customBlue"
           >
             Rendering I
           </h1>
@@ -50,7 +50,7 @@ export default function RenderingOne() {
 
         <div className="p-4 flex flex-col justify-center text-center items-center">
           <div className="flex">
-            <p className="klara text-center lg:text-start justify-center text-2xl italic p-4 text-black w-full lg:max-w-[50%]">
+            <p className="klara text-start justify-center text-2xl italic p-4 text-black w-full lg:max-w-[50%]">
               Design Rendering is an advanced-level studio course that builds on
               the work completed in Drawing I, II and Drawing for Designers. The
               course{" "}

@@ -86,7 +86,7 @@ export default function HistoryOfDesign() {
         <div className="flex flex-row space-x-2">
           <h1
             id="history-of-design"
-            className="p-4 bebas-neue-regular z-10 title uppercase font-extrabold text-8xl flex float-left text-customRed"
+            className="p-4 bebas-neue-regular z-10  uppercase font-extrabold text-8xl flex float-left text-customRed"
           >
             History of Design
           </h1>
