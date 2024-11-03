@@ -22,7 +22,7 @@ export default function About() {
         isDesktop ? "circular" : ""
       }`}
     >
-      <div className="karla text-base lg:text-lg py-4 lg:py-8 flex flex-col lg:flex-row justify-center items-center px-4 lg:px-6">
+      <div className="karla text-base lg:text-lg flex flex-col lg:flex-row justify-center items-center">
         <div className="flex flex-col justify-center items-center">
           <img
             src={duncan}
