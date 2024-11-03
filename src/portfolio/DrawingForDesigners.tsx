@@ -107,7 +107,7 @@ export default function DrawingForDesigners() {
         </div>
         <div className="p-4 flex flex-col justify-center text-center items-center">
           <div className="flex lg:flex-row flex-col w-full space-y-6 lg:space-x-6">
-            <p className="klara text-start justify-center text-2xl italic p-2 text-customLightPink max-w-[500px]">
+            <p className="klara text-start justify-center text-lg lg:text-xl italic p-2 pb-4 text-customLightPink max-w-[500px]">
               A studio course that introduces the design student to the many
               techniques of drawing required for a design professional. The
               course{" "}

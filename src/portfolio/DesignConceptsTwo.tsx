@@ -327,7 +327,7 @@ export default function DesignConceptsTwo() {
           className="p-2"
         >
           <Masonry gutter="10px" columnsCount={2}>
-            <p className="klara text-start justify-center text-2xl italic p-2 text-customLightPink">
+            <p className="klara text-start justify-center text-lg lg:text-xl italic p-2 pb-4 text-customLightPink">
               Continuation of Design Concepts I through projects focusing on the
               design methodology of problem solving. Projects explore design
               problems through sketches and three-dimensional scaled models of
