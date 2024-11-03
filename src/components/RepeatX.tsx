@@ -24,7 +24,7 @@ export default function RepeatX({ color }: RepeatXProps) {
 
   return (
     <div
-      className={`flex justify-evenly items-center bg-transparent crafty repeat z-10 absolute mt-[-14px] w-full whitespace-nowrap text-2xl ${color}`}
+      className={`flex justify-evenly items-center bg-transparent crafty repeat z-10 relative mt-[-14px] w-full whitespace-nowrap text-2xl ${color}`}
     >
       {Array.from({ length: repeatCount }, (_, index) => (
         <span key={index}>X</span>
