@@ -26,7 +26,7 @@ export default function About() {
         <div className="flex flex-col justify-center items-center">
           <img
             src={duncan}
-            className="rounded-full h-40 w-40 lg:h-52 lg:w-52 border border-customLightPink"
+            className="rounded-full h-40 w-40 lg:h-52 lg:w-52 border border-customPink"
             alt="logo"
           />
 
@@ -37,7 +37,7 @@ export default function About() {
             Fashion Design
           </p>
         </div>
-        <div className="flex flex-col flex-1 p-2 lg:p-8 lg:min-w-[500px]">
+        <div className="flex flex-col flex-1 p-2 lg:p-6 lg:min-w-[500px]">
           <p className="pt-4 text-customLightPink text-start">
             Duncan is a{" "}
             <strong className="text-customPink">

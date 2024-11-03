@@ -28,7 +28,7 @@ const images = [
 export default function TwoDForDesigners() {
   return (
     <>
-      <div className="flex flex-col bg-customBlue">
+      <div className="py-4 flex flex-col bg-customBlue">
         <div className="flex flex-row space-x-2">
           <AnimatedTitle
             text="2D For Designers"
@@ -38,7 +38,7 @@ export default function TwoDForDesigners() {
         </div>
         <ResponsiveMasonry
           columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
-          className="p-4"
+          className="p-2"
         >
           <Masonry gutter="10px" columnsCount={2}>
             {images.map((img) => (

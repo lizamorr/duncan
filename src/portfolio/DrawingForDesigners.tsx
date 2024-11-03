@@ -97,7 +97,7 @@ export default function DrawingForDesigners() {
   return (
     <>
       {/* <div className="wave-blue w-full h-12"></div> */}
-      <div className="flex flex-col bg-customBlue">
+      <div className="py-4 flex flex-col bg-customBlue">
         <div className="flex flex-row space-x-2">
           <AnimatedTitle
             text="Drawing For Designers"
@@ -107,7 +107,7 @@ export default function DrawingForDesigners() {
         </div>
         <div className="p-4 flex flex-col justify-center text-center items-center">
           <div className="flex lg:flex-row flex-col w-full space-y-6 lg:space-x-6">
-            <p className="klara text-start justify-center text-2xl italic p-4 text-customLightPink max-w-[500px]">
+            <p className="klara text-start justify-center text-2xl italic p-2 text-customLightPink max-w-[500px]">
               A studio course that introduces the design student to the many
               techniques of drawing required for a design professional. The
               course{" "}

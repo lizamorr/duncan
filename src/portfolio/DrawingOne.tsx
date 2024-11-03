@@ -91,7 +91,7 @@ const images = [
 export default function DrawingOne() {
   return (
     <>
-      <div className="flex flex-col bg-customPink">
+      <div className="py-4 flex flex-col bg-customPink">
         <div className="flex flex-row space-x-2">
           <AnimatedTitle
             text="Drawing I"
@@ -101,7 +101,7 @@ export default function DrawingOne() {
         </div>
         <ResponsiveMasonry
           columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
-          className="p-4"
+          className="p-2"
         >
           <Masonry gutter="10px" columnsCount={2}>
             {images.map((img) => (

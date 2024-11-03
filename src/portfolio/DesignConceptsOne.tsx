@@ -92,7 +92,7 @@ export default function DesignConceptsOne() {
   return (
     <>
       {/* <div className="wave-blue w-full h-12"></div> */}
-      <div className="flex flex-col bg-customBlue">
+      <div className="py-4 flex flex-col bg-customBlue">
         <div className="flex flex-row space-x-2">
           <AnimatedTitle
             text="Design Concepts I"
@@ -102,10 +102,10 @@ export default function DesignConceptsOne() {
         </div>
         <ResponsiveMasonry
           columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
-          className="p-4"
+          className="p-2"
         >
           <Masonry gutter="10px" columnsCount={2}>
-            <p className="klara text-start justify-center text-2xl italic p-4 text-customLightPink">
+            <p className="klara text-start justify-center text-2xl italic p-2 text-customLightPink">
               A detailed exploration of{" "}
               <strong>
                 scale and proportion through two and three-dimensional sketch

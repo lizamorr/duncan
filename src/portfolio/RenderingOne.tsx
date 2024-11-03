@@ -40,7 +40,7 @@ const images = [
 export default function RenderingOne() {
   return (
     <>
-      <div className="flex flex-col bg-customLightPink">
+      <div className="py-4 flex flex-col bg-customLightPink">
         <div className="flex flex-row space-x-2">
           <AnimatedTitle
             text="Rendering I"
@@ -51,7 +51,7 @@ export default function RenderingOne() {
 
         <div className="p-4 flex flex-col justify-center text-center items-center">
           <div className="flex">
-            <p className="klara text-start justify-center text-2xl italic p-4 text-black w-full lg:max-w-[50%]">
+            <p className="klara text-start justify-center text-2xl italic p-2 text-black w-full lg:max-w-[50%]">
               Design Rendering is an advanced-level studio course that builds on
               the work completed in Drawing I, II and Drawing for Designers. The
               course{" "}
