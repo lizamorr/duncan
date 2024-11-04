@@ -19,12 +19,12 @@ export default function About() {
 
   return (
     <div
-      className={`flex flex-col lg:flex-row p-8 lg:p-12 justify-center align-center bg-black ${
+      className={`flex flex-col lg:flex-row p-8 lg:p-20 justify-center align-center bg-black ${
         isDesktop ? "circular" : ""
       }`}
     >
       <div className="karla text-base lg:text-lg flex flex-col lg:flex-row justify-center items-center">
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center min-w-fit">
           <img
             src="images/about/duncan.webp"
             className="rounded-full h-40 w-40 lg:h-52 lg:w-52 border border-customPink"
@@ -38,7 +38,7 @@ export default function About() {
             Fashion Design
           </p>
         </div>
-        <div className="flex flex-col flex-1 p-2 lg:p-6 lg:min-w-[500px]">
+        <div className="flex flex-col p-2 lg:p-6 min-w-fit]">
           <p className="pt-4 text-customLightPink text-start">
             Duncan is a{" "}
             <strong className="text-customPink">
