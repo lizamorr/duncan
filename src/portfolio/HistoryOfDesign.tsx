@@ -1,11 +1,11 @@
-import "react-image-gallery/styles/css/image-gallery.css";
+import 'react-image-gallery/styles/css/image-gallery.css';
 
-import React from "react";
+import React from 'react';
 
-import ImageGallery from "react-image-gallery";
+import ImageGallery from 'react-image-gallery';
 
-import AnimatedTitle from "../components/AnimatedTitle";
-import RepeatX from "../components/RepeatX";
+import AnimatedTitle from '../components/AnimatedTitle';
+import RepeatX from '../components/RepeatX';
 
 const images = [
   {

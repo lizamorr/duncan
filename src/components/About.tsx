@@ -1,6 +1,7 @@
-import { useEffect, useState } from "react";
-
-import duncan from "../assets/duncan.webp";
+import {
+  useEffect,
+  useState,
+} from 'react';
 
 export default function About() {
   const [isDesktop, setIsDesktop] = useState(false);
@@ -25,7 +26,7 @@ export default function About() {
       <div className="karla text-base lg:text-lg flex flex-col lg:flex-row justify-center items-center">
         <div className="flex flex-col justify-center items-center">
           <img
-            src={duncan}
+            src="images/about/duncan.webp"
             className="rounded-full h-40 w-40 lg:h-52 lg:w-52 border border-customPink"
             alt="logo"
           />

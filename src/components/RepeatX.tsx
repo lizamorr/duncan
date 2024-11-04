@@ -1,4 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, {
+  useEffect,
+  useState,
+} from 'react';
 
 interface RepeatXProps {
   color: string;
@@ -24,7 +27,7 @@ export default function RepeatX({ color }: RepeatXProps) {
 
   return (
     <div
-      className={`flex justify-evenly items-center bg-transparent crafty repeat z-10 relative mt-[-14px] w-full whitespace-nowrap text-2xl ${color}`}
+      className={`flex justify-evenly items-center bg-transparent crafty repeat z-10 relative mt-[-14px] w-full whitespace-nowrap text-2xl ${color} overflow-x-hidden`}
     >
       {Array.from({ length: repeatCount }, (_, index) => (
         <span key={index}>X</span>

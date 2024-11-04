@@ -33,7 +33,7 @@ export default function ScrollToTopButton() {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="p-3 bg-[#ffff] text-black rounded-full shadow-md hover:bg-customLightPink focus:outline-none transition duration-300 ease-in-out"
+          className="p-3 bg-[#eeee] text-black rounded-full shadow-md hover:bg-customLightPink focus:outline-none transition duration-300 ease-in-out"
         >
           <AiOutlineArrowUp size={24} />
         </button>

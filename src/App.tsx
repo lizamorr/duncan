@@ -1,17 +1,17 @@
-import React from "react";
+import React from 'react';
 
-import About from "./components/About";
-import Menu from "./components/Menu";
-import ScrollToTopButton from "./components/ScrollToTop";
-import ColorTheory from "./portfolio/ColorTheory";
-import DesignConceptsOne from "./portfolio/DesignConceptsOne";
-import DesignConceptsTwo from "./portfolio/DesignConceptsTwo";
-import DrawingForDesigners from "./portfolio/DrawingForDesigners";
-import DrawingOne from "./portfolio/DrawingOne";
-import FashionIllustrator from "./portfolio/FashionIllustrator";
-import HistoryOfDesign from "./portfolio/HistoryOfDesign";
-import RenderingOne from "./portfolio/RenderingOne";
-import TwoDForDesigners from "./portfolio/TwoDForDesigners";
+import About from './components/About';
+import Menu from './components/Menu';
+import ScrollToTopButton from './components/ScrollToTop';
+import ColorTheory from './portfolio/ColorTheory';
+import DesignConceptsOne from './portfolio/DesignConceptsOne';
+import DesignConceptsTwo from './portfolio/DesignConceptsTwo';
+import DrawingForDesigners from './portfolio/DrawingForDesigners';
+import DrawingOne from './portfolio/DrawingOne';
+import FashionIllustrator from './portfolio/FashionIllustrator';
+import HistoryOfDesign from './portfolio/HistoryOfDesign';
+import RenderingOne from './portfolio/RenderingOne';
+import TwoDForDesigners from './portfolio/TwoDForDesigners';
 
 function App() {
   return (
