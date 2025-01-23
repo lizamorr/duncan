@@ -1,16 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import AnimatedTitle from '../components/AnimatedTitle';
-import RepeatX from '../components/RepeatX';
+import AnimatedTitle from "../components/AnimatedTitle";
+import RepeatX from "../components/RepeatX";
 
 const images = [
-  {
-    src: "images/drawing-for-designers/mountains.webp",
-    maxWidth: 500,
-    width: 600,
-    height: 400,
-    alt: "mountains",
-  },
   {
     src: "images/drawing-for-designers/man1.webp",
     width: 450,
@@ -117,19 +110,17 @@ export default function DrawingForDesigners() {
             . Students learn to use rapid visualization skills in solving
             complex design problems.
           </p>
-          <div>
-            <img
-              key={images[0].alt}
-              src={images[0].src}
-              alt={images[0].alt}
-              className="z-50 p-4 mx-auto rounded-3xl"
-              width={images[0].width}
-              height="auto"
-            />
-          </div>
         </div>
         <div className="flex lg:flex-row flex-col items-center">
           <div className="flex flex-col justify-center">
+            <img
+              key={images[1].alt}
+              src={images[1].src}
+              alt={images[1].alt}
+              className="z-50 p-4 mx-auto rounded-3xl"
+              width={images[1].width}
+              height="auto"
+            />
             <img
               key={images[2].alt}
               src={images[2].src}
@@ -146,28 +137,28 @@ export default function DrawingForDesigners() {
               width={images[3].width}
               height="auto"
             />
-            <img
-              key={images[4].alt}
-              src={images[4].src}
-              alt={images[4].alt}
-              className="z-50 p-4 mx-auto rounded-3xl"
-              width={images[4].width}
-              height="auto"
-            />
           </div>
           <div>
             <img
-              key={images[1].alt}
-              src={images[1].src}
-              alt={images[1].alt}
+              key={images[0].alt}
+              src={images[0].src}
+              alt={images[0].alt}
               className="z-50 p-4 mx-auto rounded-3xl"
-              width={images[1].width}
+              width={images[0].width}
               height="auto"
             />
           </div>
         </div>
         <div className="flex lg:flex-row flex-col items-center">
           <div className="flex flex-col justify-center">
+            <img
+              key={images[5].alt}
+              src={images[5].src}
+              alt={images[5].alt}
+              className="z-50 p-4 mx-auto rounded-3xl"
+              width={images[5].width}
+              height="auto"
+            />
             <img
               key={images[6].alt}
               src={images[6].src}
@@ -184,28 +175,28 @@ export default function DrawingForDesigners() {
               width={images[7].width}
               height="auto"
             />
-            <img
-              key={images[8].alt}
-              src={images[8].src}
-              alt={images[8].alt}
-              className="z-50 p-4 mx-auto rounded-3xl"
-              width={images[4].width}
-              height="auto"
-            />
           </div>
           <div>
             <img
-              key={images[5].alt}
-              src={images[5].src}
-              alt={images[5].alt}
+              key={images[4].alt}
+              src={images[4].src}
+              alt={images[4].alt}
               className="z-50 p-4 mx-auto rounded-3xl"
-              width={images[5].width}
+              width={images[4].width}
               height="auto"
             />
           </div>
         </div>
         <div className="flex lg:flex-row flex-col items-center">
           <div className="flex flex-col justify-center">
+            <img
+              key={images[9].alt}
+              src={images[9].src}
+              alt={images[9].alt}
+              className="z-50 p-4 mx-auto rounded-3xl"
+              width={images[9].width}
+              height="auto"
+            />
             <img
               key={images[10].alt}
               src={images[10].src}
@@ -222,22 +213,14 @@ export default function DrawingForDesigners() {
               width={images[11].width}
               height="auto"
             />
-            <img
-              key={images[12].alt}
-              src={images[12].src}
-              alt={images[12].alt}
-              className="z-50 p-4 mx-auto rounded-3xl"
-              width={images[12].width}
-              height="auto"
-            />
           </div>
           <div>
             <img
-              key={images[9].alt}
-              src={images[9].src}
-              alt={images[9].alt}
+              key={images[8].alt}
+              src={images[8].src}
+              alt={images[8].alt}
               className="z-50 p-4 mx-auto rounded-3xl"
-              width={images[9].width}
+              width={images[8].width}
               height="auto"
             />
           </div>
