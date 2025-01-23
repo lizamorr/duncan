@@ -1,29 +1,11 @@
-import React from 'react';
+import React from "react";
 
-import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
-import AnimatedTitle from '../components/AnimatedTitle';
-import RepeatX from '../components/RepeatX';
+import AnimatedTitle from "../components/AnimatedTitle";
+import RepeatX from "../components/RepeatX";
 
 const images = [
-  {
-    src: "images/drawing-one/horse.webp",
-    width: 400,
-    height: 636,
-    alt: "yellow shirt",
-  },
-  {
-    src: "images/drawing-one/man.webp",
-    width: 400,
-    height: 636,
-    alt: "mann front",
-  },
-  {
-    src: "images/drawing-one/woman.webp",
-    width: 400,
-    height: 636,
-    alt: "mann back",
-  },
   {
     src: "images/drawing-one/people1.webp",
     maxWidth: 500,
@@ -58,34 +40,6 @@ const images = [
     width: 500,
     height: 636,
     alt: "design 4",
-  },
-  {
-    src: "images/drawing-one/still1.webp",
-    maxWidth: 500,
-    width: 500,
-    height: 636,
-    alt: "poncho",
-  },
-  {
-    src: "images/drawing-one/still2.webp",
-    maxWidth: 500,
-    width: 500,
-    height: 636,
-    alt: "poncho arm",
-  },
-  {
-    src: "images/drawing-one/still3.webp",
-    maxWidth: 500,
-    width: 500,
-    height: 400,
-    alt: "man1",
-  },
-  {
-    src: "images/drawing-one/still4.webp",
-    maxWidth: 500,
-    width: 500,
-    height: 400,
-    alt: "man2",
   },
 ];
 
