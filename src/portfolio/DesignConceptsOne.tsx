@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
-import AnimatedTitle from '../components/AnimatedTitle';
-import RepeatX from '../components/RepeatX';
+import AnimatedTitle from "../components/AnimatedTitle";
+import RepeatX from "../components/RepeatX";
 
 const images = [
   {
@@ -72,20 +72,6 @@ const images = [
     width: 500,
     height: 636,
     alt: "poncho arm",
-  },
-  {
-    src: "images/design-concepts-one/IMG_7840.webp",
-    maxWidth: 500,
-    width: 300,
-    height: 400,
-    alt: "man1",
-  },
-  {
-    src: "images/design-concepts-one/IMG_7841.webp",
-    maxWidth: 500,
-    width: 300,
-    height: 400,
-    alt: "man2",
   },
 ];
 
