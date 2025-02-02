@@ -42,22 +42,10 @@ export default function Menu() {
         Rendering I
       </p>
       <p
-        onClick={() => handleScroll("2d-for-designers")}
-        className="hover:underline"
-      >
-        2D for Designers
-      </p>
-      <p
         onClick={() => handleScroll("history-of-design")}
         className="hover:underline"
       >
         History of Design
-      </p>
-      <p
-        onClick={() => handleScroll("fashion-illustrator")}
-        className="hover:underline"
-      >
-        Fashion Illustrator
       </p>
     </div>
   );
