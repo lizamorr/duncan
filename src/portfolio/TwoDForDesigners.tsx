@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
-import AnimatedTitle from '../components/AnimatedTitle';
-import RepeatX from '../components/RepeatX';
+import AnimatedTitle from "../components/AnimatedTitle";
+import RepeatX from "../components/RepeatX";
 
 const images = [
   {

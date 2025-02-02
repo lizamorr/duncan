@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import ImageGallery from 'react-image-gallery';
-import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
+import ImageGallery from "react-image-gallery";
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
-import AnimatedTitle from '../components/AnimatedTitle';
-import RepeatX from '../components/RepeatX';
+import AnimatedTitle from "../components/AnimatedTitle";
+import RepeatX from "../components/RepeatX";
 
 const images = [
   {
@@ -30,12 +30,6 @@ const images = [
     width: 300,
     height: 636,
     alt: "wing sleeve",
-  },
-  {
-    src: "images/design-concepts-two/IMG_9588.webp",
-    width: 300,
-    height: 636,
-    alt: "skirt",
   },
   {
     src: "images/design-concepts-two/toteae.webp",
@@ -294,6 +288,12 @@ const deliverablesImages = [
     width: 500,
     height: 400,
     alt: "project two whole deliverable slide 11",
+  },
+  {
+    original: "images/design-concepts-two/IMG_9588.webp",
+    width: 300,
+    height: 636,
+    alt: "skirt",
   },
 ];
 const shortImages = [
