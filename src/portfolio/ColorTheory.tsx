@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
-import AnimatedTitle from '../components/AnimatedTitle';
-import RepeatX from '../components/RepeatX';
+import AnimatedTitle from "../components/AnimatedTitle";
+import RepeatX from "../components/RepeatX";
 
 const images = [
   {
@@ -42,9 +42,9 @@ const images = [
 
 export default function ColorTheory() {
   return (
-    <div className="flex flex-col bg-customPink pb-8">
-      <RepeatX color="text-customBlue" />
-      <div className="stripe-pink mt-[-14px]">
+    <div className="flex flex-col bg-customBlue pb-8">
+      <RepeatX color="text-black" />
+      <div className="squares-blue mt-[-14px]">
         <AnimatedTitle text="Color Theory" id="color" color="text-customRed" />
       </div>
       <ResponsiveMasonry

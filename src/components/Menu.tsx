@@ -11,6 +11,12 @@ export default function Menu() {
 
   return (
     <div className="bebas-neue-regular text-xl lg:text-3xl bg-[#cc8983] flex flex-col justify-center p-6 lg:p-12 flex-2 text-[#25555e] space-y-2 cursor-pointer lg:min-w-[250px] w-full">
+      <p
+        onClick={() => handleScroll("fashion-construction")}
+        className="hover:underline"
+      >
+        Fashion Construction
+      </p>
       <p onClick={() => handleScroll("color")} className="hover:underline">
         Color Theory
       </p>

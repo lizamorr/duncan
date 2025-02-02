@@ -8,6 +8,7 @@ import DesignConceptsOne from "./portfolio/DesignConceptsOne";
 import DesignConceptsTwo from "./portfolio/DesignConceptsTwo";
 import DrawingForDesigners from "./portfolio/DrawingForDesigners";
 import DrawingOne from "./portfolio/DrawingOne";
+import FashionConstructionOne from "./portfolio/FashionConstructionOne";
 import HistoryOfDesign from "./portfolio/HistoryOfDesign";
 import RenderingOne from "./portfolio/RenderingOne";
 
@@ -18,6 +19,7 @@ function App() {
         <About />
         <Menu />
       </div>
+      <FashionConstructionOne />
       <ColorTheory />
       <DesignConceptsOne />
       <DesignConceptsTwo />
