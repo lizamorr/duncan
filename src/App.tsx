@@ -10,7 +10,6 @@ import DrawingForDesigners from "./portfolio/DrawingForDesigners";
 import DrawingOne from "./portfolio/DrawingOne";
 import HistoryOfDesign from "./portfolio/HistoryOfDesign";
 import RenderingOne from "./portfolio/RenderingOne";
-import TwoDForDesigners from "./portfolio/TwoDForDesigners";
 
 function App() {
   return (
@@ -25,7 +24,6 @@ function App() {
       <DrawingOne />
       <DrawingForDesigners />
       <RenderingOne />
-      <TwoDForDesigners />
       <HistoryOfDesign />
       <ScrollToTopButton />
       <div className="paperOverlay"></div>
