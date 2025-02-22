@@ -10,7 +10,10 @@ export default function Menu() {
   };
 
   return (
-    <div className="bebas-neue-regular text-xl lg:text-3xl bg-[#cc8983] flex flex-col justify-center p-6 lg:p-12 flex-2 text-[#25555e] space-y-2 cursor-pointer lg:min-w-[250px] w-full">
+    <div className="bebas-neue-regular text-xl lg:text-3xl flex flex-col justify-center p-1 flex-2 text-[#25555e] space-y-2 cursor-pointer w-full text-center lg:text-right">
+      <h2 className="py-1 lg:py-6 text-3xl lg:text-6xl font-extrabold bebas-neue-regular tracking-wide">
+        Fashion Design
+      </h2>
       <p
         onClick={() => handleScroll("fashion-construction")}
         className="hover:underline"

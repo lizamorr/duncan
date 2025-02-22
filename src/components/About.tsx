@@ -1,66 +1,43 @@
-import {
-  useEffect,
-  useState,
-} from 'react';
+import { motion } from "framer-motion";
 
 export default function About() {
-  const [isDesktop, setIsDesktop] = useState(false);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsDesktop(window.innerWidth >= 1224);
-    };
-
-    window.addEventListener("resize", handleResize);
-    handleResize();
-
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
   return (
-    <div
-      className={`flex flex-col lg:flex-row p-8 lg:p-20 justify-center align-center bg-black ${
-        isDesktop ? "circular" : ""
-      }`}
-    >
-      <div className="karla text-base lg:text-lg flex flex-col lg:flex-row justify-center items-center">
-        <div className="flex flex-col justify-center items-center min-w-fit">
-          <img
-            src="images/about/duncan.webp"
-            className="rounded-full h-40 w-40 lg:h-52 lg:w-52 border border-customPink"
-            alt="logo"
-          />
+    <div className="karla text-center flex-col lg:flex-row lg:text-left flex justify-center p-12 items-center text-[#25555e]">
+      <motion.div
+        className="relative group"
+        initial={{ opacity: 0, x: -50 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.8 }}
+      >
+        <img
+          src="images/about/duncan.webp"
+          className="rounded-full h-60 w-60 lg:h-80 lg:w-80 shadow-2xl hover:scale-105 transition-transform duration-300"
+          alt="Duncan - Fashion Designer"
+        />
+      </motion.div>
 
-          <p className="header pt-2 lg:pt-8 text-customPink leading-[50px]">
-            Duncan Morrison
-          </p>
-          <p className="bebas-neue-regular text-4xl lg:text-5xl pt-6 text-customRed">
-            Fashion Design
-          </p>
-        </div>
-        <div className="flex flex-col p-2 lg:p-6 min-w-fit]">
-          <p className="pt-4 text-customLightPink text-start">
-            Duncan is a{" "}
-            <strong className="text-customPink">
-              Creative Fashion Designer
-            </strong>{" "}
-            that is business oriented with a gender-neutral streetwear approach.
-            Aspiring fashion designer creates{" "}
-            <strong className="text-customPink">imaginative</strong>,{" "}
-            <strong className="text-customPink">spirited</strong>, and{" "}
-            <strong className="text-customPink">high-polished</strong> designs
-            surrounded by his lifestyle taste and passion for nature, family &
-            love, sports, and culture. Duncan's designs represent the tasteful
-            things he enjoys in life and that others may enjoy or find a liking
-            to as well.
-          </p>
-          <p className="italic text-customLightPink pt-3 text-end">
-            He hopes each of his designs are full of life and that each clothing
-            garment gives confidence to the individual wearing it while sparking
-            conversation wherever they go.
-          </p>
-        </div>
-      </div>
+      <motion.div
+        className="max-w-2xl text-center lg:text-left py-2 lg:p-12 text-lg"
+        initial={{ opacity: 0, x: 50 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.8 }}
+      >
+        <p className=" pt-4  text-start">
+          Duncan is a <strong>Creative Fashion Designer </strong>
+          with a business-minded approach and a distinctive focus on
+          gender-neutral streetwear. As an aspiring designer, he crafts{" "}
+          <strong>innovative</strong>, <strong>dynamic</strong>, and{" "}
+          <strong>refined</strong> pieces inspired by his passion for nature,
+          family, sports, and culture. Duncan's designs embody the essence of
+          the things he values most in life, inviting others to connect with and
+          appreciate these influences.{" "}
+        </p>
+        <p className=" italic pt-3 text-end">
+          His goal is to create designs that not only exude life and personality
+          but also empower the wearer with confidence, sparking meaningful
+          conversations and leaving a lasting impression wherever they go.
+        </p>
+      </motion.div>
     </div>
   );
 }

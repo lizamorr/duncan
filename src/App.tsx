@@ -1,24 +1,20 @@
 import React from "react";
 
 import About from "./components/About";
-import Menu from "./components/Menu";
+import AnimatedTitle from "./components/AnimatedTitle";
 import ScrollToTopButton from "./components/ScrollToTop";
-import ColorTheory from "./portfolio/ColorTheory";
-import DesignConceptsOne from "./portfolio/DesignConceptsOne";
-import DesignConceptsTwo from "./portfolio/DesignConceptsTwo";
-import DrawingForDesigners from "./portfolio/DrawingForDesigners";
-import DrawingOne from "./portfolio/DrawingOne";
-import FashionConstructionOne from "./portfolio/FashionConstructionOne";
-import HistoryOfDesign from "./portfolio/HistoryOfDesign";
-import RenderingOne from "./portfolio/RenderingOne";
+import Chevy from "./portfolio/Chevy";
 
 function App() {
   return (
     <>
-      <div className="flex flex-col lg:flex-row text-center bg-customPink">
-        <About />
-        <Menu />
+      <div className="nabla text-7xl leading-[120px] text-center absolute top-1/3 lg:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[9999] p-2 max-w-full">
+        <AnimatedTitle text="Duncan Morrison" />
       </div>
+      <Chevy />
+      <About />
+
+      {/*  
       <FashionConstructionOne />
       <ColorTheory />
       <DesignConceptsOne />
@@ -26,7 +22,7 @@ function App() {
       <DrawingOne />
       <DrawingForDesigners />
       <RenderingOne />
-      <HistoryOfDesign />
+      <HistoryOfDesign />  */}
       <ScrollToTopButton />
       <div className="paperOverlay"></div>
     </>

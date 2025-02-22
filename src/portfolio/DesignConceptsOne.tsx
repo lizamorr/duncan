@@ -2,7 +2,6 @@ import React from "react";
 
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
-import AnimatedTitle from "../components/AnimatedTitle";
 import RepeatX from "../components/RepeatX";
 
 const images = [
@@ -80,11 +79,11 @@ export default function DesignConceptsOne() {
     <div className="flex flex-col bg-customBlue pb-8">
       <RepeatX color="text-black" />
       <div className="lips-blue mt-[-14px]">
-        <AnimatedTitle
+        {/* <AnimatedTitle
           text="Design Concepts I"
           id="design-concepts-1"
           color="text-customRed"
-        />
+        /> */}
       </div>
       <ResponsiveMasonry
         columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}

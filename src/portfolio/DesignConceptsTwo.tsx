@@ -3,7 +3,6 @@ import React from "react";
 import ImageGallery from "react-image-gallery";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
-import AnimatedTitle from "../components/AnimatedTitle";
 import RepeatX from "../components/RepeatX";
 
 const images = [
@@ -317,11 +316,11 @@ export default function DesignConceptsTwo() {
       <div className="flex flex-col bg-black pb-8">
         <RepeatX color="text-customLightPink" />
         <div className="lava-black mt-[-14px]">
-          <AnimatedTitle
+          {/* <AnimatedTitle
             text="Design Concepts II"
             id="design-concepts-2"
             color="text-customPink"
-          />
+          /> */}
         </div>
         <ResponsiveMasonry
           columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}

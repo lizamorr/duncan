@@ -2,7 +2,6 @@ import React from "react";
 
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
-import AnimatedTitle from "../components/AnimatedTitle";
 import RepeatX from "../components/RepeatX";
 
 const images = [
@@ -45,7 +44,7 @@ export default function ColorTheory() {
     <div className="flex flex-col bg-customBlue pb-8">
       <RepeatX color="text-black" />
       <div className="squares-blue mt-[-14px]">
-        <AnimatedTitle text="Color Theory" id="color" color="text-customRed" />
+        {/* <AnimatedTitle text="Color Theory" id="color" color="text-customRed" /> */}
       </div>
       <ResponsiveMasonry
         columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
