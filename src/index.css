@@ -15,6 +15,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: "Nabla";
+  src: local("Nabla"), url(./fonts/Nabla-Regular.ttf) format("ttf");
+}
+
 .cursive {
   font-family: "Neonderthaw", cursive;
 }

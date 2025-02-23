@@ -10,7 +10,9 @@ module.exports = {
       },
     },
     extend: {
-      fontFamily: {},
+      fontFamily: {
+        nabla: ["Nabla"],
+      },
     },
     colors: {
       customBlue: "#02555e",
