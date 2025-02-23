@@ -1,6 +1,7 @@
 import React from "react";
 
 import About from "./components/About";
+import AnimatedTitle from "./components/AnimatedTitle";
 import ScrollToTopButton from "./components/ScrollToTop";
 import Chevy from "./portfolio/Chevy";
 
@@ -19,7 +20,7 @@ function App() {
           WebkitTextStroke: "0.1px #e9e7d8",
         }}
       >
-        Duncan Morrison
+        <AnimatedTitle text="Duncan Morrison" />
       </div>
 
       <Chevy />
