@@ -7,9 +7,21 @@ import Chevy from "./portfolio/Chevy";
 function App() {
   return (
     <>
-      <div className="nabla text-7xl leading-[120px] text-center absolute top-1/3 lg:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[9999] p-2 max-w-full">
+      <div
+        className="oi text-7xl font-extrabold leading-[6rem] text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[9999] px-6 max-w-full w-full"
+        style={{
+          background:
+            "linear-gradient(120deg, #8B4000 10%, #7A1818 30%, #4A1F4A 50%, #0A1F44 70%)",
+          WebkitBackgroundClip: "text",
+          WebkitTextFillColor: "transparent",
+          backgroundSize: "200% 200%",
+          animation: "waveGradient 6s infinite linear",
+          WebkitTextStroke: "0.1px #e9e7d8",
+        }}
+      >
         Duncan Morrison
       </div>
+
       <Chevy />
       <About />
 
