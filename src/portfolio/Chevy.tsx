@@ -63,13 +63,13 @@ const images = [
 
 export default function Chevy() {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 p-2 lg:p-4 w-full gap-4">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 p-2 lg:p-4 w-full max-w-full gap-4">
       {images.map((img, index) => (
         <img
           key={index}
           src={img.src}
           alt={img.alt}
-          className="rounded-lg"
+          className="rounded-lg w-full h-auto"
           height={img.height}
         />
       ))}

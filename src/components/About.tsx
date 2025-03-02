@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <div className="karla text-center flex-col lg:flex-row lg:text-left flex justify-center p-12 items-center text-[#25555e]">
+    <div className="karla text-center flex-col lg:flex-row lg:text-left flex justify-center p-12 items-center text-[#25555e] w-full">
       <motion.div
         className="relative group"
         initial={{ opacity: 0, x: -50 }}
