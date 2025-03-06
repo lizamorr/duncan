@@ -2,7 +2,10 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <div className="karla text-center flex-col lg:flex-row lg:text-left flex justify-center p-12 items-center text-[#25555e] w-full">
+    <div
+      id="about"
+      className="karla text-center flex-col lg:flex-row lg:text-left flex justify-center p-12 items-center text-[#25555e] w-full"
+    >
       <motion.div
         className="relative group"
         initial={{ opacity: 0, x: -50 }}
@@ -22,6 +25,9 @@ export default function About() {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
       >
+        <h2 className="text-4xl font-extrabold tracking-wide pt-12">
+          Fashion Design
+        </h2>
         <p className=" pt-4  text-start">
           Duncan is a <strong>Creative Fashion Designer </strong>
           with a business-minded approach and a distinctive focus on

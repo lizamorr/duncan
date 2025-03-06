@@ -1,49 +1,76 @@
+import { useState } from "react";
+
+import { Menu as MenuIcon, X } from "lucide-react";
+
 export default function Menu() {
+  const [isOpen, setIsOpen] = useState(false);
+
   const handleScroll = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
-      const headerOffset = 0;
-      const elementPosition =
-        element.getBoundingClientRect().top + window.scrollY - headerOffset;
-      window.scrollTo({ top: elementPosition, behavior: "smooth" });
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+      setIsOpen(false);
     }
   };
 
   return (
-    <div className="bebas-neue-regular text-xl lg:text-3xl flex flex-col justify-center p-1 flex-2 text-[#25555e] space-y-2 cursor-pointer w-full text-center lg:text-right">
-      <h2 className="py-1 lg:py-6 text-3xl lg:text-6xl font-extrabold bebas-neue-regular tracking-wide">
-        Fashion Design
-      </h2>
-      <p
-        onClick={() => handleScroll("history-of-design")}
-        className="hover:underline"
+    <div className="relative">
+      <button
+        className="p-3 z-50 fixed top-4 right-4 bg-[#ffff] rounded-full shadow-md text-[#25555e] lg:p-4 lg:text-2xl"
+        onClick={() => setIsOpen(!isOpen)}
       >
-        History of Design
-      </p>
-      <p
-        onClick={() => handleScroll("fashion-construction")}
-        className="hover:underline"
-      >
-        Fashion Construction
-      </p>
-      <p
-        onClick={() => handleScroll("rendering-1")}
-        className="hover:underline"
-      >
-        Rendering
-      </p>
-      <p
-        onClick={() => handleScroll("design-concepts-1")}
-        className="hover:underline"
-      >
-        Design Concepts I-II
-      </p>
-      <p onClick={() => handleScroll("color")} className="hover:underline">
-        Color Theory
-      </p>
-      <p onClick={() => handleScroll("drawing-1")} className="hover:underline">
-        Drawing
-      </p>
+        {isOpen ? <X size={32} /> : <MenuIcon size={32} />}
+      </button>
+
+      {isOpen && (
+        <div className="karla z-50 min-w-fit justify-items-end fixed top-16 right-4 bg-[#ffff] shadow-lg rounded-md p-4 w-48 space-y-2 text-[#25555e] lg:w-64 lg:p-6 lg:text-xl">
+          <p
+            onClick={() => handleScroll("about")}
+            className="hover:underline cursor-pointer font-bold uppercase"
+          >
+            <span className="crafy hover:flex hidden text-[#25555e] pr-4">
+              X
+            </span>
+            About
+          </p>
+          <p
+            onClick={() => handleScroll("history-of-design")}
+            className="hover:underline cursor-pointer font-bold uppercase"
+          >
+            History of Design
+          </p>
+          <p
+            onClick={() => handleScroll("fashion-construction")}
+            className="hover:underline cursor-pointer font-bold uppercase"
+          >
+            Fashion Construction
+          </p>
+          <p
+            onClick={() => handleScroll("rendering-1")}
+            className="hover:underline cursor-pointer font-bold uppercase"
+          >
+            Rendering
+          </p>
+          <p
+            onClick={() => handleScroll("design-concepts-1")}
+            className="hover:underline cursor-pointer font-bold uppercase"
+          >
+            Design Concepts I-II
+          </p>
+          <p
+            onClick={() => handleScroll("color")}
+            className="hover:underline cursor-pointer font-bold uppercase"
+          >
+            Color Theory
+          </p>
+          <p
+            onClick={() => handleScroll("drawing-1")}
+            className="hover:underline cursor-pointer font-bold uppercase"
+          >
+            Drawing
+          </p>
+        </div>
+      )}
     </div>
   );
 }
