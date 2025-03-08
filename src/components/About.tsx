@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div
       id="about"
-      className="karla text-center flex-col lg:flex-row lg:text-left flex justify-center p-12 items-center text-[#25555e] w-full"
+      className="karla text-center flex-col lg:flex-row lg:text-left flex justify-center mt-8 p-12 items-center text-[#25555e] w-full"
     >
       <motion.div
         className="relative group"
@@ -38,7 +38,7 @@ export default function About() {
           the things he values most in life, inviting others to connect with and
           appreciate these influences.{" "}
         </p>
-        <p className=" italic pt-3 text-end">
+        <p className="italic pt-3 text-end">
           His goal is to create designs that not only exude life and personality
           but also empower the wearer with confidence, sparking meaningful
           conversations and leaving a lasting impression wherever they go.

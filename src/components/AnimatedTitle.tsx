@@ -47,7 +47,7 @@ export default function AnimatedTitle({ text }: AnimatedTitleProps) {
   };
 
   return (
-    <>
+    <div className="karla text-4xl flex flex-row">
       {text.split(" ").map((word: string, index: number) => (
         <motion.span
           ref={ref}
@@ -74,6 +74,6 @@ export default function AnimatedTitle({ text }: AnimatedTitleProps) {
           ))}
         </motion.span>
       ))}
-    </>
+    </div>
   );
 }

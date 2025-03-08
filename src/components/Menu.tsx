@@ -16,7 +16,7 @@ export default function Menu() {
   return (
     <div className="relative">
       <button
-        className="p-3 z-50 fixed top-4 right-4 bg-[#ffff] rounded-full shadow-md text-[#25555e] lg:p-4 lg:text-2xl"
+        className="p-3 z-50 fixed top-1 right-1 text-[#25555e] lg:p-4 lg:text-2xl"
         onClick={() => setIsOpen(!isOpen)}
       >
         {isOpen ? <X size={32} /> : <MenuIcon size={32} />}

@@ -1,11 +1,8 @@
-import 'react-image-gallery/styles/css/image-gallery.css';
+import "react-image-gallery/styles/css/image-gallery.css";
 
-import React from 'react';
+import React from "react";
 
-import ImageGallery from 'react-image-gallery';
-
-import AnimatedTitle from '../components/AnimatedTitle';
-import RepeatX from '../components/RepeatX';
+import ImageGallery from "react-image-gallery";
 
 const images = [
   {
@@ -84,15 +81,17 @@ const images = [
 
 export default function HistoryOfDesign() {
   return (
-    <div className="flex flex-col bg-customPink pb-8">
-      <RepeatX color="text-customRed" />
-      <div className="diamonds-pink mt-[-14px]">
-        <AnimatedTitle
-          text="History of Design"
-          id="history-of-design"
-          color="text-customBlue"
-        />
-      </div>
+    <div className="flex flex-col pb-8 justify-center items-center text-[#25555e] karla">
+      {/* <RepeatX color="text-customRed" /> */}
+
+      <h2
+        id="history-of-design"
+        className="text-3xl lg:text-5xl font-extrabold tracking-wide pt-12 text-center"
+      >
+        <span className="crafty font-2xl px-4">X</span>History of Design
+        <span className="crafty font-2xl px-4">X</span>
+      </h2>
+
       <div className="p-4 lg:p-8">
         <ImageGallery items={images} />
       </div>

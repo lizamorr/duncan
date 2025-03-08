@@ -1,17 +1,22 @@
-import React from 'react';
+import React from "react";
 
-import About from './components/About';
-import Menu from './components/Menu';
-import ScrollToTopButton from './components/ScrollToTop';
-import Chevy from './portfolio/Chevy';
+import About from "./components/About";
+import Menu from "./components/Menu";
+import ScrollToTopButton from "./components/ScrollToTop";
+import { Title } from "./components/Title";
+import Chevy from "./portfolio/Chevy";
+import HistoryOfDesign from "./portfolio/HistoryOfDesign";
 
 function App() {
   return (
     <>
-      <Menu />
-      <Chevy />
-      <About />
+      <Title />
 
+      <Menu />
+      <About />
+      <Chevy />
+
+      <HistoryOfDesign />
       {/*  
       <FashionConstructionOne />
       <ColorTheory />
@@ -20,7 +25,7 @@ function App() {
       <DrawingOne />
       <DrawingForDesigners />
       <RenderingOne />
-      <HistoryOfDesign />  */}
+       */}
       <ScrollToTopButton />
       <div className="paperOverlay"></div>
     </>
