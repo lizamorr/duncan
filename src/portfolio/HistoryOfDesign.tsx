@@ -82,8 +82,6 @@ const images = [
 export default function HistoryOfDesign() {
   return (
     <div className="flex flex-col pb-8 justify-center items-center text-[#25555e] karla">
-      {/* <RepeatX color="text-customRed" /> */}
-
       <h2
         id="history-of-design"
         className="text-3xl lg:text-5xl font-extrabold tracking-wide pt-12 text-center"

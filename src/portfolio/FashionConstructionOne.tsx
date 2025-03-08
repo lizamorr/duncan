@@ -1,63 +1,52 @@
 import React from "react";
 
-import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
-
-import AnimatedTitle from "../components/AnimatedTitle";
-import RepeatX from "../components/RepeatX";
+import ImageGallery from "react-image-gallery";
 
 const images = [
   {
-    src: "images/fashion-construction/pants-1.webp",
-    maxWidth: 500,
+    original: "images/fashion-construction/pants-1.webp",
     width: 500,
     height: 636,
     alt: "pants front",
   },
   {
-    src: "images/fashion-construction/pants-2.webp",
-    maxWidth: 500,
+    original: "images/fashion-construction/pants-2.webp",
     width: 500,
     height: 636,
     alt: "pants back",
   },
   {
-    src: "images/fashion-construction/pants2-1.webp",
-    maxWidth: 500,
+    original: "images/fashion-construction/pants2-1.webp",
     width: 500,
     height: 636,
     alt: "pants front",
   },
   {
-    src: "images/fashion-construction/pants2-2.webp",
-    maxWidth: 500,
+    original: "images/fashion-construction/pants2-2.webp",
     width: 500,
     height: 636,
     alt: "pants back",
   },
   {
-    src: "images/fashion-construction/sweater-1.webp",
-    maxWidth: 500,
+    original: "images/fashion-construction/sweater-1.webp",
     width: 500,
     height: 636,
     alt: "sweater front",
   },
   {
-    src: "images/fashion-construction/sweater-2.webp",
-    maxWidth: 500,
+    original: "images/fashion-construction/sweater-2.webp",
     width: 500,
     height: 636,
     alt: "sweater back",
   },
   {
-    src: "images/fashion-construction/sweater2-1.webp",
-    maxWidth: 500,
+    original: "images/fashion-construction/sweater2-1.webp",
     width: 500,
     height: 636,
     alt: "sweater front",
   },
   {
-    src: "images/fashion-construction/sweater2-2.webp",
-    maxWidth: 500,
+    original: "images/fashion-construction/sweater2-2.webp",
     width: 500,
     height: 636,
     alt: "sweater back",
@@ -66,32 +55,36 @@ const images = [
 
 export default function FashionConstructionOne() {
   return (
-    <div className="flex flex-col bg-customPink pb-8">
-      <RepeatX color="text-customBlue" />
-      <div className="hunds-pink mt-[-14px]">
-        <AnimatedTitle
-          text="Fashion Construction"
-          id="fashion-construction"
-          color="text-customRed"
-        />
-      </div>
-      <ResponsiveMasonry
-        columnsCountBreakPoints={{ 350: 1, 750: 2 }}
-        className="p-4 lg:p-24"
+    <div className="flex flex-col pb-8 justify-center items-center text-[#25555e] karla">
+      <h2
+        id="fashion-construction"
+        className="text-3xl lg:text-5xl font-extrabold tracking-wide pt-12 text-center"
       >
-        <Masonry gutter="10px" columnsCount={2}>
-          {images.map((img) => (
-            <img
-              key={img.alt}
-              src={img.src}
-              alt={img.alt}
-              className="z-50 rounded-md m-auto"
-              width={img.width}
-              height="auto"
-            />
-          ))}
-        </Masonry>
-      </ResponsiveMasonry>
+        <span className="crafty font-2xl px-4">X</span>Fashion Construction
+        <span className="crafty font-2xl px-4">X</span>
+      </h2>
+
+      <div className="p-4 lg:p-8">
+        <ImageGallery items={images} />
+      </div>
     </div>
+
+    // <ResponsiveMasonry
+    //   columnsCountBreakPoints={{ 350: 1, 750: 2 }}
+    //   className="p-4 lg:p-24"
+    // >
+    //   <Masonry gutter="10px" columnsCount={2}>
+    //     {images.map((img) => (
+    //       <img
+    //         key={img.alt}
+    //         original={img.original}
+    //         alt={img.alt}
+    //         className="z-50 rounded-md m-auto"
+    //         width={img.width}
+    //         height="auto"
+    //       />
+    //     ))}
+    //   </Masonry>
+    // </ResponsiveMasonry>
   );
 }
