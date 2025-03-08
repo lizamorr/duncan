@@ -8,7 +8,13 @@ export default function Menu() {
   const handleScroll = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth", block: "start" });
+      const offset = 32;
+      const elementTop = element.getBoundingClientRect().top + window.scrollY;
+
+      window.scrollTo({
+        top: elementTop - offset,
+        behavior: "smooth",
+      });
       setIsOpen(false);
     }
   };
