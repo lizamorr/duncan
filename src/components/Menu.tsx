@@ -58,7 +58,7 @@ export default function Menu() {
             Design Concepts
           </p>
           <p
-            onClick={() => handleScroll("rendering-1")}
+            onClick={() => handleScroll("rendering")}
             className="hover:underline cursor-pointer font-bold uppercase"
           >
             Rendering

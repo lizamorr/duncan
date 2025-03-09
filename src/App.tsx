@@ -9,6 +9,7 @@ import ColorTheory from "./portfolio/ColorTheory";
 import DesignConcepts from "./portfolio/DesignConcepts";
 import FashionConstructionOne from "./portfolio/FashionConstructionOne";
 import HistoryOfDesign from "./portfolio/HistoryOfDesign";
+import Rendering from "./portfolio/Rendering";
 
 function App() {
   return (
@@ -23,12 +24,13 @@ function App() {
       <FashionConstructionOne />
       <DesignConcepts />
       <ColorTheory />
+      <Rendering />
       {/*  
     
 
       <DrawingOne />
       <DrawingForDesigners />
-      <RenderingOne />
+ 
        */}
       <ScrollToTopButton />
       <div className="paperOverlay"></div>
