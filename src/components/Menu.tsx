@@ -52,16 +52,16 @@ export default function Menu() {
             Fashion Construction
           </p>
           <p
+            onClick={() => handleScroll("design-concepts")}
+            className="hover:underline cursor-pointer font-bold uppercase"
+          >
+            Design Concepts
+          </p>
+          <p
             onClick={() => handleScroll("rendering-1")}
             className="hover:underline cursor-pointer font-bold uppercase"
           >
             Rendering
-          </p>
-          <p
-            onClick={() => handleScroll("design-concepts-1")}
-            className="hover:underline cursor-pointer font-bold uppercase"
-          >
-            Design Concepts I-II
           </p>
           <p
             onClick={() => handleScroll("color")}

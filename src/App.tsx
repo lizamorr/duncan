@@ -5,6 +5,8 @@ import Menu from "./components/Menu";
 import ScrollToTopButton from "./components/ScrollToTop";
 import { Title } from "./components/Title";
 import Chevy from "./portfolio/Chevy";
+import ColorTheory from "./portfolio/ColorTheory";
+import DesignConcepts from "./portfolio/DesignConcepts";
 import FashionConstructionOne from "./portfolio/FashionConstructionOne";
 import HistoryOfDesign from "./portfolio/HistoryOfDesign";
 
@@ -19,10 +21,11 @@ function App() {
 
       <HistoryOfDesign />
       <FashionConstructionOne />
-      {/*  
+      <DesignConcepts />
       <ColorTheory />
-      <DesignConceptsOne />
-      <DesignConceptsTwo />
+      {/*  
+    
+
       <DrawingOne />
       <DrawingForDesigners />
       <RenderingOne />
