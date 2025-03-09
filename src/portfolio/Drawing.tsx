@@ -153,7 +153,7 @@ export default function Drawing() {
       </h2>
 
       <div className="p-4 lg:p-8 space-y-6 flex flex-col items-center">
-        <div className="flex lg:flex-row flex-col items-center">
+        <div className="flex flex-row items-center">
           <div className="flex flex-col justify-center">
             <img
               key={images[1].alt}
@@ -191,7 +191,7 @@ export default function Drawing() {
             />
           </div>
         </div>
-        <div className="flex lg:flex-row flex-col items-center">
+        <div className="flex flex-row items-center">
           <div className="flex flex-col justify-center">
             <img
               key={images[5].alt}
@@ -229,7 +229,7 @@ export default function Drawing() {
             />
           </div>
         </div>
-        <div className="flex lg:flex-row flex-col items-center">
+        <div className="flex flex-row items-center">
           <div className="flex flex-col justify-center">
             <img
               key={images[9].alt}
