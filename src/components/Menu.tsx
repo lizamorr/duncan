@@ -34,46 +34,78 @@ export default function Menu() {
             onClick={() => handleScroll("about")}
             className="hover:underline cursor-pointer font-bold uppercase"
           >
-            <span className="crafy hover:flex hidden text-[#25555e] pr-4">
-              X
+            <span className="group relative inline-block">
+              <span className="crafty font-2xl px-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                X
+              </span>
+              About
             </span>
-            About
           </p>
           <p
             onClick={() => handleScroll("history-of-design")}
             className="hover:underline cursor-pointer font-bold uppercase"
           >
-            History of Design
+            <span className="group relative inline-block">
+              <span className="crafty font-2xl px-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                X
+              </span>
+              History of Design
+            </span>
           </p>
           <p
             onClick={() => handleScroll("fashion-construction")}
             className="hover:underline cursor-pointer font-bold uppercase"
           >
-            Fashion Construction
+            <span className="group relative inline-block">
+              <span className="crafty font-2xl px-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                X
+              </span>
+              Fashion Construction
+            </span>
           </p>
           <p
             onClick={() => handleScroll("design-concepts")}
             className="hover:underline cursor-pointer font-bold uppercase"
           >
-            Design Concepts
+            <span className="group relative inline-block">
+              <span className="crafty font-2xl px-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                X
+              </span>
+              Design Concepts
+            </span>
           </p>
           <p
             onClick={() => handleScroll("drawing")}
             className="hover:underline cursor-pointer font-bold uppercase"
           >
-            Drawing
+            <span className="group relative inline-block">
+              <span className="crafty font-2xl px-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                X
+              </span>
+              Drawing
+            </span>
           </p>
           <p
             onClick={() => handleScroll("rendering")}
             className="hover:underline cursor-pointer font-bold uppercase"
           >
-            Rendering
+            <span className="group relative inline-block">
+              <span className="crafty font-2xl px-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                X
+              </span>
+              Rendering
+            </span>
           </p>
           <p
             onClick={() => handleScroll("color")}
             className="hover:underline cursor-pointer font-bold uppercase"
           >
-            Color Theory
+            <span className="group relative inline-block">
+              <span className="crafty font-2xl px-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                X
+              </span>
+              Color Theory
+            </span>
           </p>
         </div>
       )}
