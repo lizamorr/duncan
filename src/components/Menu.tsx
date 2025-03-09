@@ -70,7 +70,7 @@ export default function Menu() {
             Color Theory
           </p>
           <p
-            onClick={() => handleScroll("drawing-1")}
+            onClick={() => handleScroll("drawing")}
             className="hover:underline cursor-pointer font-bold uppercase"
           >
             Drawing
