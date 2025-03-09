@@ -20,13 +20,12 @@ function App() {
       <Menu />
       <About />
       <Chevy />
-
       <HistoryOfDesign />
       <FashionConstructionOne />
       <DesignConcepts />
+      <Drawing />
       <ColorTheory />
       <Rendering />
-      <Drawing />
 
       <ScrollToTopButton />
       <div className="paperOverlay"></div>

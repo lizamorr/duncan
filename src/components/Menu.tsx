@@ -58,6 +58,12 @@ export default function Menu() {
             Design Concepts
           </p>
           <p
+            onClick={() => handleScroll("drawing")}
+            className="hover:underline cursor-pointer font-bold uppercase"
+          >
+            Drawing
+          </p>
+          <p
             onClick={() => handleScroll("rendering")}
             className="hover:underline cursor-pointer font-bold uppercase"
           >
@@ -68,12 +74,6 @@ export default function Menu() {
             className="hover:underline cursor-pointer font-bold uppercase"
           >
             Color Theory
-          </p>
-          <p
-            onClick={() => handleScroll("drawing")}
-            className="hover:underline cursor-pointer font-bold uppercase"
-          >
-            Drawing
           </p>
         </div>
       )}
