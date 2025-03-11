@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import { Menu as MenuIcon, X } from "lucide-react";
 
@@ -19,6 +19,19 @@ export default function Menu() {
     }
   };
 
+  useEffect(() => {
+    const handleClickOutside = (event: any) => {
+      if (isOpen && !event.target.closest(".menu-container")) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [isOpen]);
+
   return (
     <div className="relative">
       <button
@@ -29,86 +42,37 @@ export default function Menu() {
       </button>
 
       {isOpen && (
-        <div className="karla z-50 min-w-fit justify-items-end fixed top-16 right-4 bg-[#ffff] shadow-lg rounded-md p-4 w-48 space-y-2 text-[#25555e] lg:w-64 lg:p-6 lg:text-xl">
-          <p
-            onClick={() => handleScroll("about")}
-            className="hover:underline cursor-pointer font-bold uppercase"
-          >
-            <span className="group relative inline-block">
-              <span className="crafty font-2xl px-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                X
-              </span>
-              About
-            </span>
-          </p>
-          <p
-            onClick={() => handleScroll("history-of-design")}
-            className="hover:underline cursor-pointer font-bold uppercase"
-          >
-            <span className="group relative inline-block">
-              <span className="crafty font-2xl px-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                X
-              </span>
-              History of Design
-            </span>
-          </p>
-          <p
-            onClick={() => handleScroll("fashion-construction")}
-            className="hover:underline cursor-pointer font-bold uppercase"
-          >
-            <span className="group relative inline-block">
-              <span className="crafty font-2xl px-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                X
-              </span>
-              Fashion Construction
-            </span>
-          </p>
-          <p
-            onClick={() => handleScroll("design-concepts")}
-            className="hover:underline cursor-pointer font-bold uppercase"
-          >
-            <span className="group relative inline-block">
-              <span className="crafty font-2xl px-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                X
-              </span>
-              Design Concepts
-            </span>
-          </p>
-          <p
-            onClick={() => handleScroll("drawing")}
-            className="hover:underline cursor-pointer font-bold uppercase"
-          >
-            <span className="group relative inline-block">
-              <span className="crafty font-2xl px-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                X
-              </span>
-              Drawing
-            </span>
-          </p>
-          <p
-            onClick={() => handleScroll("rendering")}
-            className="hover:underline cursor-pointer font-bold uppercase"
-          >
-            <span className="group relative inline-block">
-              <span className="crafty font-2xl px-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                X
-              </span>
-              Rendering
-            </span>
-          </p>
-          <p
-            onClick={() => handleScroll("color")}
-            className="hover:underline cursor-pointer font-bold uppercase"
-          >
-            <span className="group relative inline-block">
-              <span className="crafty font-2xl px-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                X
-              </span>
-              Color Theory
-            </span>
-          </p>
-        </div>
+        <div className="fixed inset-0 bg-black bg-opacity-50 z-40"></div>
       )}
+
+      <div
+        className={`menu-container z-50 min-w-fit h-screen right-0 justify-items-end fixed top-16 text-[#ffff] shadow-lg p-6 w-48 space-y-4 bg-[#25555e] lg:w-64 lg:p-6 lg:text-xl transition-transform duration-300 transform ${
+          isOpen ? "translate-x-0" : "translate-x-full"
+        }`}
+      >
+        {[
+          "about",
+          "history-of-design",
+          "fashion-construction",
+          "design-concepts",
+          "drawing",
+          "rendering",
+          "color",
+        ].map((section) => (
+          <div
+            key={section}
+            onClick={() => handleScroll(section)}
+            className="hover:underline cursor-pointer font-bold uppercase items-end justify-end"
+          >
+            <span className="group relative inline-block">
+              <span className="text-[#ffff] crafty font-2xl px-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                X
+              </span>
+              {section.replace(/-/g, " ")}
+            </span>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
