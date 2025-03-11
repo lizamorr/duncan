@@ -135,7 +135,7 @@ export default function Drawing() {
     //           key={img.alt}
     //           original={img.original}
     //           alt={img.alt}
-    //           className="z-50 rounded-md m-auto"
+    //           className="rounded-md m-auto"
     //           width={img.width}
     //           height="auto"
     //         />
@@ -159,7 +159,7 @@ export default function Drawing() {
               key={images[1].alt}
               src={images[1].src}
               alt={images[1].alt}
-              className="z-50 p-4 mx-auto rounded-3xl"
+              className="p-4 mx-auto rounded-3xl"
               width={images[1].width}
               height="auto"
             />
@@ -167,7 +167,7 @@ export default function Drawing() {
               key={images[2].alt}
               src={images[2].src}
               alt={images[2].alt}
-              className="z-50 p-4 mx-auto rounded-3xl"
+              className="p-4 mx-auto rounded-3xl"
               width={images[2].width}
               height="auto"
             />
@@ -175,7 +175,7 @@ export default function Drawing() {
               key={images[3].alt}
               src={images[3].src}
               alt={images[3].alt}
-              className="z-50 p-4 mx-auto rounded-3xl"
+              className="p-4 mx-auto rounded-3xl"
               width={images[3].width}
               height="auto"
             />
@@ -243,7 +243,7 @@ export default function Drawing() {
               key={images[10].alt}
               src={images[10].src}
               alt={images[10].alt}
-              className="z-50 p-4 mx-auto rounded-3xl"
+              className="p-4 mx-auto rounded-3xl"
               width={images[10].width}
               height="auto"
             />
@@ -251,7 +251,7 @@ export default function Drawing() {
               key={images[11].alt}
               src={images[11].src}
               alt={images[11].alt}
-              className="z-50 p-4 mx-auto rounded-3xl"
+              className="p-4 mx-auto rounded-3xl"
               width={images[11].width}
               height="auto"
             />
@@ -261,7 +261,7 @@ export default function Drawing() {
               key={images[8].alt}
               src={images[8].src}
               alt={images[8].alt}
-              className="z-50 p-4 mx-auto rounded-3xl"
+              className="p-4 mx-auto rounded-3xl"
               width={images[8].width}
               height="auto"
             />

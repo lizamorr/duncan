@@ -2,7 +2,7 @@ import React from "react";
 
 import ImageGallery from "react-image-gallery";
 
-const images = [
+const finalImages = [
   {
     original: "images/design-concepts-two/IMG_6173.webp",
     width: 300,
@@ -33,8 +33,6 @@ const images = [
     width: 300,
     height: 636,
   },
-];
-const finalImages = [
   {
     original: "images/design-concepts-two/FINAL-1.webp",
     width: 500,
@@ -427,9 +425,10 @@ export default function DesignConcepts() {
       </h2>
 
       <div className="p-4 lg:p-8 space-y-6">
-        <ImageGallery items={images1} />
-        <ImageGallery items={images} />
-        <ImageGallery items={finalImages} />
+        <div className="flex flex-col lg:flex-row lg:space-x-4 space-x-0 space-y-0 lg:space-y-4">
+          <ImageGallery items={images1} />
+          <ImageGallery items={finalImages} />
+        </div>
         {/* <ImageGallery items={presentationImages} /> */}
         <ImageGallery items={deliverablesImages} />
         {/* <ImageGallery items={shortImages} /> */}
