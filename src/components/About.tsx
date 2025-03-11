@@ -17,7 +17,7 @@ export default function About() {
           className="rounded-full h-60 w-60 lg:h-80 lg:w-80 shadow-2xl hover:scale-105 transition-transform duration-300"
           alt="Duncan - Fashion Designer"
         />
-        <h2 className="relative text-5xl font-extrabold tracking-wide mt-[-30px] z-50 bebas-neue-regular uppercase">
+        <h2 className="relative text-5xl font-extrabold tracking-wide mt-[-30px] z-[49] bebas-neue-regular uppercase">
           Fashion Design
         </h2>
       </motion.div>
