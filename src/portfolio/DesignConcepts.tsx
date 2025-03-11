@@ -425,7 +425,7 @@ export default function DesignConcepts() {
       </h2>
 
       <div className="p-4 lg:p-8 space-y-6">
-        <div className="flex flex-col lg:flex-row lg:space-x-4 space-x-0 space-y-0 lg:space-y-4">
+        <div className="flex flex-col lg:flex-row lg:space-x-4 space-x-0 space-y-4">
           <ImageGallery items={images1} />
           <ImageGallery items={finalImages} />
         </div>
