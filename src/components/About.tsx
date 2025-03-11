@@ -7,7 +7,7 @@ export default function About() {
       className="karla text-center flex-col lg:flex-row lg:text-left flex justify-center mt-16 p-4 lg:p-12 items-center text-[#25555e] w-full"
     >
       <motion.div
-        className="relative group"
+        className="relative group flex flex-col justify-center items-center"
         initial={{ opacity: 0, x: -50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
@@ -17,18 +17,18 @@ export default function About() {
           className="rounded-full h-60 w-60 lg:h-80 lg:w-80 shadow-2xl hover:scale-105 transition-transform duration-300"
           alt="Duncan - Fashion Designer"
         />
+        <h2 className="relative text-5xl font-extrabold tracking-wide mt-[-30px] z-50 bebas-neue-regular uppercase">
+          Fashion Design
+        </h2>
       </motion.div>
 
       <motion.div
-        className="max-w-2xl text-center lg:text-left py-2 lg:p-12 text-lg"
+        className="max-w-2xl text-center lg:text-left py-4 lg:p-12 text-lg"
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h2 className="text-4xl font-extrabold tracking-wide pt-12">
-          Fashion Design
-        </h2>
-        <p className="pt-4 text-center lg:text-start">
+        <p className="pt-8 text-center lg:text-start">
           Duncan is a <strong>Creative Fashion Designer </strong>
           with a business-minded approach and a distinctive focus on
           gender-neutral streetwear. As an aspiring designer, he crafts{" "}
