@@ -420,8 +420,9 @@ export default function DesignConcepts() {
         id="design-concepts"
         className="flex items-center text-3xl lg:text-5xl font-extrabold tracking-wide pt-12 text-center"
       >
-        <span className="crafty font-2xl px-4">X</span>Design Concepts
-        <span className="crafty font-2xl px-4">X</span>
+        <span className="crafty font-xl px-4">X</span>
+        <span className="bebas-neue-regular uppercase">Design Concepts</span>
+        <span className="crafty font-xl px-4">X</span>
       </h2>
 
       <div className="p-4 lg:p-8 space-y-6">

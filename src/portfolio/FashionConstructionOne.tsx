@@ -60,8 +60,11 @@ export default function FashionConstructionOne() {
         id="fashion-construction"
         className="flex items-center text-3xl lg:text-5xl font-extrabold tracking-wide pt-12 text-center"
       >
-        <span className="crafty font-2xl px-4">X</span>Fashion Construction
-        <span className="crafty font-2xl px-4">X</span>
+        <span className="crafty font-xl px-4">X</span>
+        <span className="bebas-neue-regular uppercase">
+          Fashion Construction
+        </span>
+        <span className="crafty font-xl px-4">X</span>
       </h2>
 
       <div className="p-4 lg:p-8">
