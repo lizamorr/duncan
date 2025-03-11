@@ -430,9 +430,9 @@ export default function DesignConcepts() {
         <ImageGallery items={images1} />
         <ImageGallery items={images} />
         <ImageGallery items={finalImages} />
-        <ImageGallery items={presentationImages} />
+        {/* <ImageGallery items={presentationImages} /> */}
         <ImageGallery items={deliverablesImages} />
-        <ImageGallery items={shortImages} />
+        {/* <ImageGallery items={shortImages} /> */}
       </div>
     </div>
   );

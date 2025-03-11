@@ -185,7 +185,7 @@ export default function Drawing() {
               key={images[0].alt}
               src={images[0].src}
               alt={images[0].alt}
-              className="z-50 p-4 mx-auto rounded-3xl"
+              className="p-4 mx-auto rounded-3xl"
               width={images[0].width}
               height="auto"
             />
@@ -197,7 +197,7 @@ export default function Drawing() {
               key={images[5].alt}
               src={images[5].src}
               alt={images[5].alt}
-              className="z-50 p-4 mx-auto rounded-3xl"
+              className="p-4 mx-auto rounded-3xl"
               width={images[5].width}
               height="auto"
             />
@@ -205,7 +205,7 @@ export default function Drawing() {
               key={images[6].alt}
               src={images[6].src}
               alt={images[6].alt}
-              className="z-50 p-4 mx-auto rounded-3xl"
+              className="p-4 mx-auto rounded-3xl"
               width={images[6].width}
               height="auto"
             />
@@ -213,7 +213,7 @@ export default function Drawing() {
               key={images[7].alt}
               src={images[7].src}
               alt={images[7].alt}
-              className="z-50 p-4 mx-auto rounded-3xl"
+              className="p-4 mx-auto rounded-3xl"
               width={images[7].width}
               height="auto"
             />
@@ -223,7 +223,7 @@ export default function Drawing() {
               key={images[4].alt}
               src={images[4].src}
               alt={images[4].alt}
-              className="z-50 p-4 mx-auto rounded-3xl"
+              className="p-4 mx-auto rounded-3xl"
               width={images[4].width}
               height="auto"
             />
@@ -235,7 +235,7 @@ export default function Drawing() {
               key={images[9].alt}
               src={images[9].src}
               alt={images[9].alt}
-              className="z-50 p-4 mx-auto rounded-3xl"
+              className="p-4 mx-auto rounded-3xl"
               width={images[9].width}
               height="auto"
             />
