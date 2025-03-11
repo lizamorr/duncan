@@ -429,10 +429,10 @@ export default function DesignConcepts() {
       <div className="p-4 lg:p-8 space-y-6">
         <ImageGallery items={images1} />
         <ImageGallery items={images} />
-        <ImageGallery items={finalImages} />;
-        <ImageGallery items={presentationImages} />;
-        <ImageGallery items={deliverablesImages} />;
-        <ImageGallery items={shortImages} />;
+        <ImageGallery items={finalImages} />
+        <ImageGallery items={presentationImages} />
+        <ImageGallery items={deliverablesImages} />
+        <ImageGallery items={shortImages} />
       </div>
     </div>
   );
