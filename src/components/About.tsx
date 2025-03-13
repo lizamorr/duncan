@@ -23,12 +23,12 @@ export default function About() {
       </motion.div>
 
       <motion.div
-        className="max-w-2xl text-center lg:text-left py-4 lg:p-12 text-lg"
+        className="max-w-2xl text-center lg:text-left py-4 px-2 lg:p-12 text-lg"
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <p className="pt-8 text-center lg:text-start">
+        <p className="pt-6 text-center lg:text-start">
           Duncan is a <strong>Creative Fashion Designer </strong>
           with a business-minded approach and a distinctive focus on
           gender-neutral streetwear. As an aspiring designer, he crafts{" "}
