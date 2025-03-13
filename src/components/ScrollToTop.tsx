@@ -1,9 +1,6 @@
-import React, {
-  useEffect,
-  useState,
-} from 'react';
+import React, { useEffect, useState } from "react";
 
-import { AiOutlineArrowUp } from 'react-icons/ai';
+import { AiOutlineArrowUp } from "react-icons/ai";
 
 export default function ScrollToTopButton() {
   const [isVisible, setIsVisible] = useState(false);
@@ -33,7 +30,7 @@ export default function ScrollToTopButton() {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="p-3 bg-[#eeee] text-black rounded-full shadow-md hover:bg-customLightPink focus:outline-none transition duration-300 ease-in-out"
+          className="p-3 bg-[#eeee] text-black rounded-full shadow-md hover:bg-[#dae2e3] focus:outline-none transition duration-300 ease-in-out"
         >
           <AiOutlineArrowUp size={24} />
         </button>
